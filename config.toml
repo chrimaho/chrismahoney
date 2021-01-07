@@ -1,3 +1,57 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://www.chrismahoney.com.au/"
+DefaultContentLanguage = "en"
+languageCode = "en-au"
+title = "Chris Mahoney"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+
+[Params]
+    homeTitle = "Chris Mahoney"
+    subtitle = "Homepage for ChrisMahoney.com.au"
+    dateFormat = "02 Jan 2006"
+    commit = true
+    comments = true
+    readingTime = true
+    wordCount = true
+    showRelatedPosts = true
+    hideAuthor = true
+
+[Author]
+    name = "Chris Mahoney"
+    website = "chrismahoney.com.au"
+    email = "chrismahoney@hotmail.com"
+    github = "chrimaho"
+    linkedin = "chrimaho"
+    kaggle = "chrimaho"
+    stackoverflow = "users/12036005/chrimaho"
+    medium = "chrimaho"
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 1
+
+[[menu.main]]
+    name = "Corporate"
+    url = "corporate"
+    weight = 2
+
+[[menu.main]]
+    name = "Academia"
+    url = "academia"
+    weight = 3
+
+[[menu.main]]
+    name = "Blogs"
+    url = "blogs"
+    weight = 4
+
+[[menu.main]]
+    name = "Apps"
+    url = "apps"
+    weight = 5
+
+[[menu.main]]
+    name = "Resume"
+    url = "resume"
+    weight = 6
