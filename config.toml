@@ -1,4 +1,4 @@
-baseURL = "http://www.chrismahoney.com.au/home"
+baseURL = "http://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
 languageCode = "en-au"
 title = "Chris Mahoney"
@@ -33,37 +33,37 @@ googleAnalytics = ""
 
     [[menu.main]]
         name = "About"
-        url = "/pages/about/"
+        url = "/page/about/"
         weight = 1
 
     [[menu.main]]
         name = "Corporate"
-        url = "/pages/corporate/"
+        url = "/page/corporate/"
         weight = 2
 
     [[menu.main]]
         name = "Academia"
-        url = "/pages/academia/"
+        url = "/page/academia/"
         weight = 3
 
     [[menu.main]]
         name = "Projects"
-        url = "/pages/projects/"
+        url = "/page/projects/"
         weight = 4
 
     [[menu.main]]
         name = "Blogs"
-        url = "/pages/blogs/"
+        url = "/page/blogs/"
         weight = 5
 
     [[menu.main]]
         name = "Apps"
-        url = "/pages/apps/"
+        url = "/page/apps/"
         weight = 6
 
     [[menu.main]]
         name = "Resume"
-        url = "/pages/resume/"
+        url = "/page/resume/"
         weight = 7
 
 
