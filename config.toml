@@ -26,32 +26,46 @@ metaDataFormat = "yaml"
     stackoverflow = "users/12036005/chrimaho"
     medium = "chrimaho"
 
-[[menu.main]]
-    name = "About"
-    url = "about"
-    weight = 1
+[menu]
 
-[[menu.main]]
-    name = "Corporate"
-    url = "corporate"
-    weight = 2
+    [[menu.main]]
+        name = "About"
+        url = "/pages/about/"
+        weight = 1
 
-[[menu.main]]
-    name = "Academia"
-    url = "academia"
-    weight = 3
+    [[menu.main]]
+        name = "Corporate"
+        url = "/pages/corporate/"
+        weight = 2
 
-[[menu.main]]
-    name = "Blogs"
-    url = "blogs"
-    weight = 4
+    [[menu.main]]
+        name = "Academia"
+        url = "/pages/academia/"
+        weight = 3
 
-[[menu.main]]
-    name = "Apps"
-    url = "apps"
-    weight = 5
+    [[menu.main]]
+        name = "Projects"
+        url = "/pages/projects/"
+        weight = 4
 
-[[menu.main]]
-    name = "Resume"
-    url = "resume"
-    weight = 6
+    [[menu.main]]
+        name = "Blogs"
+        url = "/pages/blogs/"
+        weight = 5
+
+    [[menu.main]]
+        name = "Apps"
+        url = "/pages/apps/"
+        weight = 6
+
+    [[menu.main]]
+        name = "Resume"
+        url = "/pages/resume/"
+        weight = 7
+
+
+[[social_icons]]
+    id = "medium"
+    url = "https://medium.com/@%s"
+    title = "Medium"
+    icon = "fab fa-medium"
