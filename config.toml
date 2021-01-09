@@ -1,7 +1,7 @@
 baseURL = "http://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
 languageCode = "en-au"
-title = "Chris Mahoney"
+title = "Personal Website"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 enableEmoji = true
@@ -11,7 +11,7 @@ googleAnalytics = ""
     homeTitle = "Chris Mahoney"
     subtitle = "Homepage for ChrisMahoney.com.au"
     dateFormat = "02 Jan 2006"
-    mainSections = ["post","posts","page","pages"]
+    mainSections = ["post","posts"]
     commit = true
     comments = true
     readingTime = true
