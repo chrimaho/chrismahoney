@@ -2,7 +2,12 @@
 title: About me
 subtitle: I try to understand things clearly and explain them well
 comments: false
-url: /page/about/
+url: /about/
+draft: true
+hidden: true
+headless: true
+include_toc: true
+show_comments: true
 ---
 
 No content yet ...
