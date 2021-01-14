@@ -510,6 +510,8 @@ footer .theme-by {
 }
 .intro-header .page-heading,
 .intro-header .tags-heading,
+.intro-header .blogs-heading,
+.intro-header .projects-heading,
 .intro-header .categories-heading {
   text-align: center;
 }
@@ -521,6 +523,8 @@ footer .theme-by {
 }
 .intro-header .page-heading h1,
 .intro-header .tags-heading h1,
+.intro-header .blogs-heading h1,
+.intro-header .projects-heading h1,
 .intro-header .categories-heading h1 {
   margin-top: 0;
   font-size: 50px;
@@ -577,6 +581,8 @@ footer .theme-by {
   }
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1,
+  .intro-header .blogs-heading h1,
+  .intro-header .projects-heading h1,
   .intro-header .categories-heading h1 {
     font-size: 80px;
   }
