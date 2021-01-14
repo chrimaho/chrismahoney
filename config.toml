@@ -9,9 +9,13 @@ googleAnalytics = ""
 
 [Params]
     homeTitle = "Chris Mahoney"
-    subtitle = "Homepage for ChrisMahoney.com.au"
+    subtitle = "I try to understand things clearly and explain them well"
     dateFormat = "02 Jan 2006"
+    date = "2021-01-10"
     mainSections = ["post","posts"]
+    mainPages = ["About", "Corporate", "Academia", "Projects", "Blogs", "Apps"]
+    logo = "images/ChrisMahoneyCorporate.jpg"
+    #logo = "images/ChrisMahoneyInspirational_Modified2.jpg"
     commit = true
     comments = true
     readingTime = true
@@ -23,43 +27,59 @@ googleAnalytics = ""
     name = "Chris Mahoney"
     website = "chrismahoney.com.au"
     email = "chrismahoney@hotmail.com"
-    github = "chrimaho"
     linkedin = "chrimaho"
-    kaggle = "chrimaho"
-    stackoverflow = "users/12036005/chrimaho"
     medium = "chrimaho"
+    github = "chrimaho"
+    stackoverflow = "users/12036005/chrimaho"
+    kaggle = "chrimaho"
 
 [menu]
 
     [[menu.main]]
-        name = "About"
-        url = "/page/about/"
+        identifier = "about"
+        name = "About Me"
         weight = 1
 
+        [[menu.main]]
+            parent = "about"
+            name = "About"
+            url = "/page/about/"
+            weight = 1
+
+        [[menu.main]]
+            parent = "about"
+            name = "Corporate"
+            url = "/page/corporate/"
+            weight = 2
+
+        [[menu.main]]
+            parent = "about"
+            name = "Academia"
+            url = "/page/academia/"
+            weight = 3
+
     [[menu.main]]
-        name = "Corporate"
-        url = "/page/corporate/"
+        identifier = "stuff"
+        name = "My Stuff"
         weight = 2
 
-    [[menu.main]]
-        name = "Academia"
-        url = "/page/academia/"
-        weight = 3
+        [[menu.main]]
+            parent = "stuff"
+            name = "Projects"
+            url = "/projects/"
+            weight = 4
 
-    [[menu.main]]
-        name = "Projects"
-        url = "/page/projects/"
-        weight = 4
+        [[menu.main]]
+            parent = "stuff"
+            name = "Blogs"
+            url = "/blogs/"
+            weight = 5
 
-    [[menu.main]]
-        name = "Blogs"
-        url = "/page/blogs/"
-        weight = 5
-
-    [[menu.main]]
-        name = "Apps"
-        url = "/page/apps/"
-        weight = 6
+        [[menu.main]]
+            parent = "stuff"
+            name = "Apps"
+            url = "/page/apps/"
+            weight = 6
 
     [[menu.main]]
         name = "Resume"
