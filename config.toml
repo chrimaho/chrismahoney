@@ -31,7 +31,6 @@ googleAnalytics = ""
     medium = "chrimaho"
     github = "chrimaho"
     stackoverflow = "users/12036005/chrimaho"
-    kaggle = "chrimaho"
 
 [menu]
 
@@ -65,12 +64,6 @@ googleAnalytics = ""
 
         [[menu.main]]
             parent = "stuff"
-            name = "Projects"
-            url = "/projects/"
-            weight = 4
-
-        [[menu.main]]
-            parent = "stuff"
             name = "Blogs"
             url = "/blogs/"
             weight = 5
@@ -78,17 +71,16 @@ googleAnalytics = ""
         [[menu.main]]
             parent = "stuff"
             name = "Apps"
-            url = "/page/apps/"
+            url = "/apps/"
             weight = 6
+
+        [[menu.main]]
+            parent = "stuff"
+            name = "Projects"
+            url = "/projects/"
+            weight = 4
 
     [[menu.main]]
         name = "Resume"
         url = "/page/resume/"
         weight = 7
-
-
-[[social_icons]]
-    id = "medium"
-    url = "https://medium.com/@%s"
-    title = "Medium"
-    icon = "fab fa-medium"
