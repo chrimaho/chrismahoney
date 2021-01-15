@@ -1,6 +1,6 @@
 ---
 title: Blogs
 subtitle: All the blogs I've done
-url: /blogs/
+targurl: /blogs/
 Image: file-alt-regular.svg
 ---
