@@ -1,7 +1,7 @@
 ---
 title: Exploring Undernourishment
 date: 2020-06-05
-draft: true
+draft: false
 #bigimg: [{src: "img/bigimg.jpeg", desc: "Image source: [GitHub](www.github.com)"}]
 ---
 
