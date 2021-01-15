@@ -1,4 +1,4 @@
-baseURL = "http://www.chrismahoney.com.au"
+baseURL = "https://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
 languageCode = "en-au"
 title = "Personal Website"
