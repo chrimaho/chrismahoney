@@ -1,8 +1,7 @@
 ---
 title: Exploring Undernourishment
 date: 2020-10-13
-draft: true
-#bigimg: [{src: "img/bigimg.jpeg", desc: "Image source: [GitHub](www.github.com)"}]
+draft: false
 ---
 
 A Visual Data Exploration Research Project to Better Understand the Nuances of Our Global Nutrition

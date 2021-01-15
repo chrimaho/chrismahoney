@@ -1,7 +1,7 @@
 ---
 title: Vanilla Neural Networks in R
 date: 2020-11-07
-draft: true
+draft: false
 #bigimg: [{src: "img/bigimg.jpeg", desc: "Image source: [GitHub](www.github.com)"}]
 ---
 

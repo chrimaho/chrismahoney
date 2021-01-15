@@ -1,6 +1,6 @@
 ---
 Title: Projects
-Subtitle: This
+# Subtitle: This
 ---
 
 text

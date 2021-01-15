@@ -1,8 +1,8 @@
 ---
 title: About Me
 subtitle: I try to understand things clearly and explain them well
-comments: false
-image: aabout
+date: 2020-01-15
+draft: false
 ---
 
 No content yet ...
