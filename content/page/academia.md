@@ -258,7 +258,7 @@ The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a
 
 | Started | Finished | Graduated | GPA | URL|
 |---|---|---|---|---|
-| Feb 2011 | Nov 2011 | Nov 2011 | - | [DIP-MGMNT)]() |
+| Feb 2011 | Nov 2011 | Nov 2011 | - | [DIP-MGMNT]() |
 
 <b>Description</b>
 
