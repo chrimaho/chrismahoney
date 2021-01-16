@@ -24,6 +24,8 @@ googleAnalytics = ""
     wordCount = true
     showRelatedPosts = true
     hideAuthor = true
+    includePageLastModified = false
+    includePostLastModified = false
 
 # Author deets
 [Author]
