@@ -1,5 +1,9 @@
   {{ if eq .Type "page" }}
-    {{ partial "page_meta.html" . }}
+    {{ if ne .IsHome }}
+      {{ if .Params.includePageLastModified }}
+        {{ partial "page_meta.html" . }}
+      {{ end }}
+    {{ end }}
   {{ end }}
 <footer>
   <div class="container">
