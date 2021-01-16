@@ -1,6 +1,7 @@
 # Site files
-/resources/
-/public/
+resources/
+public/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
