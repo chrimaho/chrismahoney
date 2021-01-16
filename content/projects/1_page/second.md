@@ -1,9 +1,8 @@
 ---
-title: "Second"
-date: 2021-01-07T23:13:39+11:00
-draft: true
+title: Second
+date: 2021-01-15
+draft: false
 ---
 
 This is my second post
 
-{{ .Site.Menus }}
