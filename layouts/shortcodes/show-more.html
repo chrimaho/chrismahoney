@@ -1,0 +1,36 @@
+<style>
+    .show_more_less {
+        margin: 20px;
+        max-height: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .show_more_less .read-more { 
+        position: absolute; 
+        bottom: 0; 
+        left: 0;
+        width: 100%; 
+        text-align: center; 
+        margin: 0; 
+        padding: 30px 0; 
+        background-image: linear-gradient(to bottom, transparent, white);
+    }
+    
+    .show_more_less .read-less { 
+        position: absolute; 
+        bottom: 0; 
+        left: 0;
+        width: 100%; 
+        text-align: center; 
+        margin: 0; 
+        padding: 30px 0; 
+        background-image: none;
+        display: none;
+    }    
+</style>
+<div class="show_more_less">
+{{ .Inner }}
+<p class="read-more"><a class="btn btn-default btn-sm" style="background-color:#e6e6e6">Read More</a></p>
+<p class="read-less"><a class="btn btn-default btn-sm" style="background-color:#e6e6e6">Read less</a></p>
+</div>

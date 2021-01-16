@@ -6,7 +6,7 @@ title = "Personal Website"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 enableEmoji = true
-googleAnalytics = ""
+googleAnalytics = "UA-106819690-1"
 
 # Site params
 [Params]
@@ -24,6 +24,8 @@ googleAnalytics = ""
     wordCount = true
     showRelatedPosts = true
     hideAuthor = true
+    includePageLastModified = false
+    includePostLastModified = false
 
 # Author deets
 [Author]
