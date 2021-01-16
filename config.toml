@@ -1,3 +1,4 @@
+# Base configs
 baseURL = "https://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
 languageCode = "en-au"
@@ -7,6 +8,7 @@ metaDataFormat = "yaml"
 enableEmoji = true
 googleAnalytics = ""
 
+# Site params
 [Params]
     homeTitle = "Chris Mahoney"
     subtitle = "I try to understand things clearly and explain them well"
@@ -23,6 +25,7 @@ googleAnalytics = ""
     showRelatedPosts = true
     hideAuthor = true
 
+# Author deets
 [Author]
     name = "Chris Mahoney"
     website = "chrismahoney.com.au"
@@ -32,12 +35,13 @@ googleAnalytics = ""
     github = "chrimaho"
     stackoverflow = "users/12036005/chrimaho"
 
+# Site menu's
 [menu]
 
     [[menu.main]]
         identifier = "about"
         name = "About Me"
-        weight = 1
+        weight = 0.1
 
         [[menu.main]]
             parent = "about"
@@ -60,27 +64,33 @@ googleAnalytics = ""
     [[menu.main]]
         identifier = "stuff"
         name = "My Stuff"
-        weight = 2
+        weight = 0.2
 
         [[menu.main]]
             parent = "stuff"
             name = "Blogs"
             url = "/blogs/"
-            weight = 5
+            weight = 1
 
         [[menu.main]]
             parent = "stuff"
             name = "Apps"
             url = "/apps/"
-            weight = 6
+            weight = 2
 
         [[menu.main]]
             parent = "stuff"
             name = "Projects"
             url = "/projects/"
-            weight = 4
+            weight = 3
 
     [[menu.main]]
         name = "Resume"
         url = "/page/resume/"
-        weight = 7
+        weight = 0.3
+
+# Turn on the ability to render raw html
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
