@@ -54,6 +54,10 @@ draft: false
 }
 </style>
 
+<div class="well"><p>
+All of my academic courses have been listed for convenient access and information.
+</p></div>
+
 <!--
 <div class="edu-media">
     <div class="edu-container">
@@ -102,12 +106,12 @@ draft: false
 <br>
  -->
 
-<img src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" style="height:180px;" align="left" />
+<img src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" style="height:160px;" align="left" />
 # Masters of Data Science & Innovation {#mdsi}
 
-| Started | Finished | Graduated | GPA | URL|
-|---|---|---|---|---|
-| Feb 2019 | Nov 2021 | Apr 2022 | 6.87 / 7.0 | [MDSI](https://www.uts.edu.au/future-students/transdisciplinary-innovation/master-data-science-and-innovation/master-data-science-and-innovation) |
+| Dates |  GPA | URL| Certificate |
+|---|---|---|---|
+| Feb/2019 - Nov/2021 | 6.87 / 7.0 | [MDSI](https://www.uts.edu.au/future-students/transdisciplinary-innovation/master-data-science-and-innovation/master-data-science-and-innovation) | Soon... |
 
 <b>Description</b>
 
@@ -135,19 +139,20 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 <br>
 <hr>
 
-<img src="https://www.greeningaustralia.org.au/wp-content/uploads/2020/06/Western-Sydney-University_Stacked-Logo-200x200-1.png" style="height:180px;" align="left" />
+<img src="https://www.greeningaustralia.org.au/wp-content/uploads/2020/06/Western-Sydney-University_Stacked-Logo-200x200-1.png" style="height:160px;" align="left" />
 # Bachelor of Applied Leadership and Critical Thinking {#balct}
 
-| Started | Finished | Graduated | GPA | URL|
-|---|---|---|---|---|
-| Feb 2019 | Nov 2021 | Apr 2022 | 6.0 / 7.0 | [BALCT](http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725.1) |
+| Dates | GPA | URL| Certificate |
+|---|---|---|---|
+| Feb/2019 - Nov/2021 | 6.0 / 7.0 | [BALCT](http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725.1) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" target="_blank">Open</a> |
 
 <b>Awards & Activities</b>
 
-1. Academic Engagement Award (2017)
-2. Recipient of the Citizens Scholar Award (2017)
-3. Deans Merit List (2017)
-4. Participant of the WYSE International Leadership Programme in Italy (2017)
+1. Academic Engagement Award (<a href="/page/docs/20171117 - Academy Excellence Awards - Academic Engagement Award.pdf" target="_blank">2017</a>)
+2. Recipient of the Citizens Scholar Award (<a href="/page/docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" target="_blank">2017</a>)
+3. Deans Merit List ([2017]())
+4. Participant of the WYSE International Leadership Programme in Italy (<a href="/page/docs/20170817 - WYSE ILP - 03 Aug 2017.pdf" target="_blank">2017</a>)
+5. Member of the Golden Key International Honours Society (<a href="/page/docs/20171115 - Certificate - Golden Key International Honour Society.pdf" target="_blank">2017</a>)
 
 <b>Description</b>
 
@@ -171,21 +176,21 @@ The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-
 <br>
 <hr>
 
-<img src="https://www.greeningaustralia.org.au/wp-content/uploads/2017/11/University-of-Western-Sydney-final.png" style="height:180px;" align="left" />
+<img src="https://www.greeningaustralia.org.au/wp-content/uploads/2017/11/University-of-Western-Sydney-final.png" style="height:160px;" align="left" />
 # Bachelor of Business and Commerce: Advanced Business Leadership (Management) {#bbc-abl}
 
-| Started | Finished | Graduated | GPA | URL|
-|---|---|---|---|---|
-| Feb 2019 | Nov 2021 | Apr 2022 | 6.235 / 7.0 | [BBC-ABL(MGMNT)](http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787.2) |
+| Dates | GPA | URL| Certificate |
+|---|---|---|---|
+| Feb/2019 - Nov/2021 | 6.235 / 7.0 | [BBC-ABL(MGMNT)](http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787.2) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20170411 - Hardcopy Testamur and AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" target="_blank">Open</a> |
 
 <b>Awards & Activities</b>
 
-1. Deans Medal for Outstanding Scholarship (2016)
-2. Deans Merit List (2013, 2014, 2015)
-3. Member of the Golden Key International Honours Society (2012)
+1. Deans Medal for Outstanding Scholarship (<a href="/page/docs/20170712 - Deans Medal 2016 - Certificate.pdf" target="_blank">2016</a>)
+2. Deans Merit List (<a href="/page/docs/20140516 - Dean’s Merit List 2013 - Certificate.pdf" target="_blank">2013</a>, <a href="/page/docs/20150518 - Dean’s Merit List 2014 - Certificate.pdf" target="_blank">2014</a>, <a href="/page/docs/20160525 - Dean’s Merit List 2015 - Certificate.pdf" target="_blank">2015</a>)
+3. Member of the Golden Key International Honours Society (<a href="/page/docs/20171115 - Certificate - Golden Key International Honour Society.pdf" target="_blank">2012</a>)
 4. International Internship: Human Resources Assistant with Habitat for Humanity Vietnam (2013)
-5. Participant at the University Scholars Leadership Symposium in Cambodia (2014)
-6. Research Assistant with the University's project for the Skills Shortage in Western Sydney (2015)
+5. Participant at the University Scholars Leadership Symposium in Cambodia (<a href="/page/docs/20140807 - Certificate - 5th University Scholars Leadership Symposium" target="_blank">2014</a>)
+6. Research Assistant with the University's project for the Skills Shortage in Western Sydney (<a href="/page/docs/20151019 - Certificate - CMI Research Project.pdf" target="_blank">2015</a>)
 
 <b>Description</b>
 
@@ -218,12 +223,12 @@ The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a
 <br>
 <hr>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" style="height:180px; padding:15px;" align="left" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" style="height:160px; padding:15px;" align="left" />
 # Diploma of Management {#dip-man}
 
-| Started | Finished | Graduated | URL|
-|---|---|---|---|
-| Feb 2011 | Nov 2011 | Nov 2011 | [DIP-MGMNT](https://training.gov.au/training/details/bsb51107) |
+| Dates | URL | Certificate |
+|---|---|---|
+| Feb/2011 - Nov/2011 | [DIP-MGMNT](https://training.gov.au/training/details/bsb51107) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20110906 - Qualification - Diploma of Management - Certificate & Units of Competencies.pdf" target="_blank">Open</a> |
 
 <b>Description</b>
 
@@ -246,12 +251,12 @@ This qualification reflects the role of individuals who are engaged to manage th
 <br>
 <hr>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" style="height:180px; padding:15px;" align="left" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" style="height:160px; padding:15px;" align="left" />
 # Certificate IV in Training and Assessment {#cert-iv-tae}
 
-| Started | Finished | Graduated | URL|
-|---|---|---|---|
-| Feb 2011 | Nov 2011 | Nov 2011 | [CIV-TAE)]() |
+| Dates | URL| Certificate |
+|---|---|---|
+| Feb/2011 - Nov/2011 | [CIV-TAE)](https://training.gov.au/training/details/tae40110) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20111221 - Qualification - Cert IV Training and Assessment - Certificate and Units of Competencies.pdf" target="_blank">Open</a> |
 
 <b>Description</b>
 
