@@ -54,9 +54,11 @@ draft: false
 }
 </style>
 
+<!--
 <div class="well"><p>
 All of my academic courses have been listed for convenient access and information.
 </p></div>
+-->
 
 <!--
 <div class="edu-media">
@@ -278,3 +280,26 @@ This qualification reflects the roles of individuals delivering training and ass
 | 200586 | 2011-Spr | Design and Develop Learning Programs |
 | 200586 | 2011-Spr | Use Training Packages and Accredited Courses to Meet Client Needs |
 {{% /details %}}
+
+<br>
+<hr>
+
+# Additional Qualifications
+
+In addition to the above listed courses, I have also completed a number of smaller qualifications, as listed.
+
+1. <b>Lean Six Sigma: Continuous Improvement</b></br>
+Green Belt: [2017]({{< static "/page/docs/20171207 - Certificate - CI Green Belt.pdf" >}})<br>
+Yellow Belt: [2016]({{< static "/page/docs/20160701 - Certificate - CI Yellow Belt.pdf" >}})
+1. <b>Paul Harris Fellow</b> ([2018]({{< static "/page/docs/20180427 - Paul Harris Fellow.pdf" >}}))<br>
+For significant assistance given for the furtherance of understanding and friendly relations among peoples of the world.
+1. <b>Rotary Youth Leadership Awards</b> ([RYLA](https://rotarydistrict9685.org.au/sitepage/ryla))<br>
+Facilitator: 2016, 2019, 2020<br>
+Participant: 2015
+1. <b>Rotary Youth Program of Enrichment</b> ([RYPEN](https://rotarydistrict9685.org.au/page/rypen))<br>
+Facilitator: 2015-2019 (Summer)<br>
+Mentor: 2015-2019 (Winter)
+1. <b>Duke of Edinburgh's Award</b><br>
+Gold ([2009]({{< static "docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" >}}))<br>
+Silver ([2007]({{< static "docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" >}}))<br>
+Bronze([2006]({{< static "docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" >}}))
