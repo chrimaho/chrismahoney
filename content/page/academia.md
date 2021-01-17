@@ -113,7 +113,7 @@ All of my academic courses have been listed for convenient access and informatio
 
 | Dates |  GPA | URL| Certificate |
 |---|---|---|---|
-| Feb/2019 - Nov/2021 | 6.87 / 7.0 | [MDSI](https://www.uts.edu.au/future-students/transdisciplinary-innovation/master-data-science-and-innovation/master-data-science-and-innovation) | Soon... |
+| Feb/2019 - Nov/2021 | 6.87 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
 
 <b>Description</b>
 
@@ -146,15 +146,15 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 
 | Dates | GPA | URL| Certificate |
 |---|---|---|---|
-| Feb/2019 - Nov/2021 | 6.0 / 7.0 | [BALCT](http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725.1) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" target="_blank">Open</a> |
+| Feb/2019 - Nov/2021 | 6.0 / 7.0 | {{< link text="BALCT" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725" title="WSU Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" title="Certificate" newtab=true button=true >}} |
 
 <b>Awards & Activities</b>
 
-1. Academic Engagement Award (<a href="/page/docs/20171117 - Academy Excellence Awards - Academic Engagement Award.pdf" target="_blank">2017</a>)
-2. Recipient of the Citizens Scholar Award (<a href="/page/docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" target="_blank">2017</a>)
+1. Academic Engagement Award ({{< link text="2017" path="docs/20171117 - Academy Excellence Awards - Academic Engagement Award.pdf" title="Certificate" newtab=true button=false >}})
+2. Recipient of the Citizens Scholar Award ({{< link text="2017" path="docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" title="Certificate" newtab=true button=false >}})
 3. Deans Merit List ([2017]())
-4. Participant of the WYSE International Leadership Programme in Italy (<a href="/page/docs/20170817 - WYSE ILP - 03 Aug 2017.pdf" target="_blank">2017</a>)
-5. Member of the Golden Key International Honours Society (<a href="/page/docs/20171115 - Certificate - Golden Key International Honour Society.pdf" target="_blank">2017</a>)
+4. Participant of the WYSE International Leadership Programme in Italy ({{< link text="2017" path="docs/20170817 - WYSE ILP - 03 Aug 2017.pdf" title="Certificate" newtab=true button=false >}})
+5. Member of the Golden Key International Honours Society ({{< link text="2017" path="docs/20171115 - Certificate - Golden Key International Honour Society.pdf" title="Certificate" newtab=true button=false >}})
 
 <b>Description</b>
 
@@ -183,16 +183,16 @@ The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-
 
 | Dates | GPA | URL| Certificate |
 |---|---|---|---|
-| Feb/2019 - Nov/2021 | 6.235 / 7.0 | [BBC-ABL(MGMNT)](http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787.2) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20170411 - Hardcopy Testamur and AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" target="_blank">Open</a> |
+| Feb/2019 - Nov/2021 | 6.235 / 7.0 | {{< link text="BBC-ABL(MGMNT)" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787" title="UWS Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20170411 - Hardcopy Testamur and AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" title="Certificate" newtab=true button=true >}} |
 
 <b>Awards & Activities</b>
 
-1. Deans Medal for Outstanding Scholarship (<a href="/page/docs/20170712 - Deans Medal 2016 - Certificate.pdf" target="_blank">2016</a>)
-2. Deans Merit List (<a href="/page/docs/20140516 - Dean’s Merit List 2013 - Certificate.pdf" target="_blank">2013</a>, <a href="/page/docs/20150518 - Dean’s Merit List 2014 - Certificate.pdf" target="_blank">2014</a>, <a href="/page/docs/20160525 - Dean’s Merit List 2015 - Certificate.pdf" target="_blank">2015</a>)
-3. Member of the Golden Key International Honours Society (<a href="/page/docs/20171115 - Certificate - Golden Key International Honour Society.pdf" target="_blank">2012</a>)
+1. Deans Medal for Outstanding Scholarship ({{< link text="2016" path="docs/20170712 - Deans Medal 2016 - Certificate.pdf" title="Certificate" newtab=true button=false >}})
+2. Deans Merit List ({{< link text="2013" path="docs/20140516 - Dean’s Merit List 2013 - Certificate.pdf" title="Certificate" newtab=true button=false >}}, {{< link text="2014" path="docs/20150518 - Dean’s Merit List 2014 - Certificate.pdf" title="Certificate" newtab=true button=false >}}, {{< link text="2015" path="docs/20160525 - Dean’s Merit List 2015 - Certificate.pdf" title="Certificate" newtab=true button=false >}})
+3. Member of the Golden Key International Honours Society ({{< link text="2012" path="docs/20171115 - Certificate - Golden Key International Honour Society.pdf" title="Certificate" newtab=true button=false >}})
 4. International Internship: Human Resources Assistant with Habitat for Humanity Vietnam (2013)
-5. Participant at the University Scholars Leadership Symposium in Cambodia (<a href="/page/docs/20140807 - Certificate - 5th University Scholars Leadership Symposium" target="_blank">2014</a>)
-6. Research Assistant with the University's project for the Skills Shortage in Western Sydney (<a href="/page/docs/20151019 - Certificate - CMI Research Project.pdf" target="_blank">2015</a>)
+5. Participant at the University Scholars Leadership Symposium in Cambodia ({{< link text="2014" path="docs/20140807 - Certificate - 5th University Scholars Leadership Symposium.pdf" title="Certificate" newtab=true button=false >}})
+6. Research Assistant with the University's project for the Skills Shortage in Western Sydney ({{< link text="2015" path="docs/20151019 - Certificate - CMI Research Project.pdf" title="Certificate" newtab=true button=false >}})
 
 <b>Description</b>
 
@@ -206,20 +206,20 @@ The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a
 | 200336 | 2012-Aut | Business Academic Skills | D | [BAS](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200336) |
 | 200101 | 2012-Spr | Accounting Information for Managers | D | [AIM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200101) |
 | 200032 | 2013-Aut | Statistics for Business | HD | [SfB](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200032) |
-| 200184 | 2013-Aut | Introduction to Business Law | P | [IBL](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200184) |
-| 200525 | 2013-Spr | Strategic Management | D | [SM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200525) |
+| 200184 | 2013-Aut | Introduction to Business Law | P | [IBL](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200184) |
+| 200525 | 2013-Spr | Strategic Management | D | [SM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200525) |
 | 200587 | 2013-Spr | Principles of Economics | HD | [PoE](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200525) |
-| 200586 | 2014-Aut | Cross Cultural Management | HD | [CCM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200586) |
-| 200588 | 2014-Aut | Global Operations and Logistics Management | D | [GOLM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200588) |
-| 200157 | 2014-Spr | Management of Change | D | [Moc](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200157) |
-| 200570 | 2014-Spr | Organisational Learning and Development | D | [OLD](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200570) |
-| 200573 | 2015-Aut | Business Leadership | D | [BL](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200573) |
-| 200863 | 2015-Aut | Leadership and Entrepreneurship | HD | [L&E](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200863) |
-| 200568 | 2015-Spr | Contemporary Management Issues | HD | [CMI](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200568) |
-| 200609 | 2015-Spr | Entrepreneurial Team | D | [ET](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200609) |
-| 200572 | 2016-Aut | Advanced Business Seminars | HD | [BAS](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200572) |
-| 200574 | 2016-Aut | Frontiers of Business Theory and Analysis | D | [FBTA](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200574) |
-| 200158 | 2016-Spr | Business, Society and Policy | D | [BSP](http://handbook.westernsydney.edu.au/hbook/unit.aspx?200158) |
+| 200586 | 2014-Aut | Cross Cultural Management | HD | [CCM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200586) |
+| 200588 | 2014-Aut | Global Operations and Logistics Management | D | [GOLM](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200588) |
+| 200157 | 2014-Spr | Management of Change | D | [Moc](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200157) |
+| 200570 | 2014-Spr | Organisational Learning and Development | D | [OLD](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200570) |
+| 200573 | 2015-Aut | Business Leadership | D | [BL](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200573) |
+| 200863 | 2015-Aut | Leadership and Entrepreneurship | HD | [L&E](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200863) |
+| 200568 | 2015-Spr | Contemporary Management Issues | HD | [CMI](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200568) |
+| 200609 | 2015-Spr | Entrepreneurial Team | D | [ET](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200609) |
+| 200572 | 2016-Aut | Advanced Business Seminars | HD | [BAS](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200572) |
+| 200574 | 2016-Aut | Frontiers of Business Theory and Analysis | D | [FBTA](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200574) |
+| 200158 | 2016-Spr | Business, Society and Policy | D | [BSP](http://handbook.westernsydney.edu.au/hbook/unit.aspx?unit=200158) |
 {{% /details %}}
 
 <br>
@@ -230,7 +230,7 @@ The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a
 
 | Dates | URL | Certificate |
 |---|---|---|
-| Feb/2011 - Nov/2011 | [DIP-MGMNT](https://training.gov.au/training/details/bsb51107) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20110906 - Qualification - Diploma of Management - Certificate & Units of Competencies.pdf" target="_blank">Open</a> |
+| Feb/2011 - Nov/2011 | {{< link text="DIP-MGMNT" path="https://training.gov.au/training/details/bsb51107" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20110906 - Qualification - Diploma of Management - Certificate & Units of Competencies.pdf" title="DIP" newtab=true button=true >}} |
 
 <b>Description</b>
 
@@ -258,7 +258,7 @@ This qualification reflects the role of individuals who are engaged to manage th
 
 | Dates | URL| Certificate |
 |---|---|---|
-| Feb/2011 - Nov/2011 | [CIV-TAE](https://training.gov.au/training/details/tae40110) | <a class="btn btn-default btn-sm" style="background-color:#e6e6e6" href="/page/docs/20111221 - Qualification - Cert IV Training and Assessment - Certificate and Units of Competencies.pdf" target="_blank">Open</a> |
+| Feb/2011 - Nov/2011 | {{< link text="CIV-TAE" path="https://training.gov.au/training/details/tae40110" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20111221 - Qualification - Cert IV Training and Assessment - Certificate and Units of Competencies.pdf" title="TAE Cert" newtab=true button=true >}} |
 
 <b>Description</b>
 
@@ -289,17 +289,17 @@ This qualification reflects the roles of individuals delivering training and ass
 In addition to the above listed courses, I have also completed a number of smaller qualifications, as listed.
 
 1. <b>Lean Six Sigma: Continuous Improvement</b></br>
-Green Belt: [2017]({{< static "/page/docs/20171207 - Certificate - CI Green Belt.pdf" >}})<br>
-Yellow Belt: [2016]({{< static "/page/docs/20160701 - Certificate - CI Yellow Belt.pdf" >}})
-1. <b>Paul Harris Fellow</b> ([2018]({{< static "/page/docs/20180427 - Paul Harris Fellow.pdf" >}}))<br>
+Green Belt ({{< link text="2017" path="docs/20171207 - Certificate - CI Green Belt.pdf" title="Green Belt" newtab=true button=false >}})<br>
+Yellow Belt ({{< link text="2016" path="/docs/20160701 - Certificate - CI Yellow Belt.pdf" title="Yellow Belt" newtab=true button=false >}})
+1. <b>Paul Harris Fellow</b> ({{< link text="2018" path="docs/20180427 - Paul Harris Fellow.pdf" title="Paul Harris Fellow" newtab=true button=false >}})<br>
 For significant assistance given for the furtherance of understanding and friendly relations among peoples of the world.
-1. <b>Rotary Youth Leadership Awards</b> ([RYLA](https://rotarydistrict9685.org.au/sitepage/ryla))<br>
+1. <b>Rotary Youth Leadership Awards</b> ({{< link text="RYLA" path="https://rotarydistrict9685.org.au/sitepage/ryla" title="RYLA Website" newtab=true button=false >}})<br>
 Facilitator: 2016, 2019, 2020<br>
 Participant: 2015
-1. <b>Rotary Youth Program of Enrichment</b> ([RYPEN](https://rotarydistrict9685.org.au/page/rypen))<br>
+1. <b>Rotary Youth Program of Enrichment</b> ({{< link text="RYPEN" path="https://rotarydistrict9685.org.au/page/rypen" title="RYPEN Website" newtab=true button=false >}})<br>
 Facilitator: 2015-2019 (Summer)<br>
 Mentor: 2015-2019 (Winter)
 1. <b>Duke of Edinburgh's Award</b><br>
-Gold ({{< link "2009" "docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" "Gold DEA" true>}})<br>
+Gold ({{< link text="2009" path="docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" title="Gold DEA" newtab=true >}})<br>
 Silver ({{< link text="2007" path="docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" title="Silver DEA" newtab=true >}})<br>
-Bronze ({{< link "2006" "docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" "Bronze DEA" true>}})
+Bronze ({{< link text="2006" path="docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" title="Bronze DEA" newtab=true >}})
