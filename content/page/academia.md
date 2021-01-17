@@ -289,9 +289,9 @@ This qualification reflects the roles of individuals delivering training and ass
 In addition to the above listed courses, I have also completed a number of smaller qualifications, as listed.
 
 1. <b>Lean Six Sigma: Continuous Improvement</b></br>
-Green Belt: <a href="/page/docs/20171207 - Certificate - CI Green Belt.pdf" target="_blank">2017</a><br>
-Yellow Belt: <a href="/page/docs/20160701 - Certificate - CI Yellow Belt.pdf" target="_blank">2016</a>
-1. <b>Paul Harris Fellow</b> (<a href="/page/docs/20180427 - Paul Harris Fellow.pdf" target="_blank">2018</a>)<br>
+Green Belt: [2017]({{< static "/page/docs/20171207 - Certificate - CI Green Belt.pdf" >}})<br>
+Yellow Belt: [2016]({{< static "/page/docs/20160701 - Certificate - CI Yellow Belt.pdf" >}})
+1. <b>Paul Harris Fellow</b> ([2018]({{< static "/page/docs/20180427 - Paul Harris Fellow.pdf" >}}))<br>
 For significant assistance given for the furtherance of understanding and friendly relations among peoples of the world.
 1. <b>Rotary Youth Leadership Awards</b> ([RYLA](https://rotarydistrict9685.org.au/sitepage/ryla))<br>
 Facilitator: 2016, 2019, 2020<br>
@@ -300,6 +300,6 @@ Participant: 2015
 Facilitator: 2015-2019 (Summer)<br>
 Mentor: 2015-2019 (Winter)
 1. <b>Duke of Edinburgh's Award</b><br>
-Gold (<a href="/page/docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" target="_blank">2009</a>)<br>
-Silver(<a href="/page/docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" target="_blank">2007</a>)<br>
-Bronze(<a href="/page/docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" target="_blank">2006</a>)
+Gold ([2009]({{< static "docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" >}}))<br>
+Silver ([2007]({{< static "docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" >}}))<br>
+Bronze([2006]({{< static "docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" >}}))
