@@ -15,7 +15,7 @@
 {{ if or (not (hasPrefix (.Scratch.Get "path") "http")) (not (hasPrefix (.Scratch.Get "path") "mailto"))}}
     {{- if hasPrefix (.Scratch.Get "path") "/" -}}
         {{- .Scratch.Set "path" (slicestr (.Scratch.Get "path") 1) -}}
-    {{- end -}} 
+    {{- end -}}
     {{- .Scratch.Set "path" (.Scratch.Get "path" | absLangURL) -}}
 {{ end }}
 
