@@ -300,6 +300,6 @@ Participant: 2015
 Facilitator: 2015-2019 (Summer)<br>
 Mentor: 2015-2019 (Winter)
 1. <b>Duke of Edinburgh's Award</b><br>
-Gold ([2009]({{< static "docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" >}}))<br>
-Silver ([2007]({{< static "docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" >}}))<br>
-Bronze([2006]({{< static "docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" >}}))
+Gold ({{< link "2009" "docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" "Gold DEA" true>}})<br>
+Silver ({{< link text="2007" path="docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" title="Silver DEA" newtab=true >}})<br>
+Bronze ({{< link "2006" "docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" "Bronze DEA" true>}})
