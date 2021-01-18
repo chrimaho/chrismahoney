@@ -1,26 +1,27 @@
-<!-- Declare variables -->
 {{ if .IsNamedParams }}
-    {{- .Scratch.Set "text" (.Get "text") -}}
-    {{- .Scratch.Set "path" (.Get "path") -}}
-    {{- .Scratch.Set "title" (.Get "title") -}}
-    {{- .Scratch.Set "newtab" (.Get "newtab") -}}
+{{- .Scratch.Set "text" (.Get "text") -}}
+{{- .Scratch.Set "path" (.Get "path") -}}
+{{- .Scratch.Set "title" (.Get "title") -}}
+{{- .Scratch.Set "newtab" (.Get "newtab") -}}
+{{- .Scratch.Set "button" (.Get "button") -}}
 {{ else }}
-    {{ if .Get 0 }}{{- .Scratch.Set "text" (.Get 0) -}}{{ end }}
-    {{ if .Get 1 }}{{- .Scratch.Set "path" (.Get 1) -}}{{ end }}
-    {{ if .Get 2 }}{{- .Scratch.Set "title" (.Get 2) -}}{{ end }}
-    {{ if .Get 3 }}{{- .Scratch.Set "newtab" (.Get 3) -}}{{ end }}
+{{ if .Get 0 }}{{- .Scratch.Set "text" (.Get 0) -}}{{ end }}
+{{ if .Get 1 }}{{- .Scratch.Set "path" (.Get 1) -}}{{ end }}
+{{ if .Get 2 }}{{- .Scratch.Set "title" (.Get 2) -}}{{ end }}
+{{ if .Get 3 }}{{- .Scratch.Set "newtab" (.Get 3) -}}{{ end }}
+{{ if .Get 4 }}{{- .Scratch.Set "button" (.Get 4) -}}{{ end }}
 {{ end }}
-
-<!-- Handle static path -->
+{{- "" -}}
 {{ if or (not (hasPrefix (.Scratch.Get "path") "http")) (not (hasPrefix (.Scratch.Get "path") "mailto"))}}
-    {{- if hasPrefix (.Scratch.Get "path") "/" -}}
-        {{- .Scratch.Set "path" (slicestr (.Scratch.Get "path") 1) -}}
-    {{- end -}}
-    {{- .Scratch.Set "path" (.Scratch.Get "path" | absLangURL) -}}
+{{- if hasPrefix (.Scratch.Get "path") "/" -}}
+{{- .Scratch.Set "path" (slicestr (.Scratch.Get "path") 1) -}}
+{{- end -}}
+{{- .Scratch.Set "path" (.Scratch.Get "path" | absLangURL) -}}
 {{ end }}
-
-<!-- Set html -->
+{{- "" -}}
 <a href={{ (.Scratch.Get "path") | safeURL }}
-    {{ with (.Scratch.Get "newtab") }}target=_blank rel="noopener"{{ end }}
-    {{ with (.Scratch.Get "title") }}title="{{ . }}"{{ end }}
+{{ with (.Scratch.Get "button") }}class="btn btn-default btn-sm" style="background-color:#e6e6e6"{{ end }}
+{{ with (.Scratch.Get "newtab") }}target=_blank rel="noopener"{{ end }}
+{{ with (.Scratch.Get "title") }}title="{{ . }}"{{ end }}
 >{{ with (.Scratch.Get "text") }}{{ . | htmlEscape }}{{end}}</a>
+{{- "" -}}
