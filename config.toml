@@ -59,8 +59,8 @@ googleAnalytics = "UA-106819690-1"
 
         [[menu.main]]
             parent = "about"
-            name = "Academia"
-            url = "/page/academia/"
+            name = "Education"
+            url = "/page/education/"
             weight = 3
 
     [[menu.main]]
