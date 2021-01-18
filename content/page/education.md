@@ -113,7 +113,7 @@ All of my academic courses have been listed for convenient access and informatio
 
 | Dates |  GPA | URL| Certificate |
 |---|---|---|---|
-| Feb/2019 - Nov/2021 | 6.87 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2021 | 6.87 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
 
 <b>Description</b>
 
@@ -146,7 +146,7 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 
 | Dates | GPA | URL| Certificate |
 |---|---|---|---|
-| Feb/2019 - Nov/2021 | 6.0 / 7.0 | {{< link text="BALCT" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725" title="WSU Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" title="Certificate" newtab=true button=true >}} |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2017 - 2019 | 6.0 / 7.0 | {{< link text="BALCT" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725" title="WSU Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" title="Certificate" newtab=true button=true >}} |
 
 <b>Awards & Activities</b>
 
@@ -183,7 +183,7 @@ The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-
 
 | Dates | GPA | URL| Certificate |
 |---|---|---|---|
-| Feb/2019 - Nov/2021 | 6.235 / 7.0 | {{< link text="BBC-ABL(MGMNT)" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787" title="UWS Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20170411 - Hardcopy Testamur and AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" title="Certificate" newtab=true button=true >}} |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2012 - 2017 | 6.235 / 7.0 | {{< link text="BBC-ABL(MGMNT)" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787" title="UWS Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20170411 - Hardcopy Testamur and AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" title="Certificate" newtab=true button=true >}} |
 
 <b>Awards & Activities</b>
 
@@ -230,7 +230,7 @@ The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a
 
 | Dates | URL | Certificate |
 |---|---|---|
-| Feb/2011 - Nov/2011 | {{< link text="DIP-MGMNT" path="https://training.gov.au/training/details/bsb51107" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20110906 - Qualification - Diploma of Management - Certificate & Units of Competencies.pdf" title="DIP" newtab=true button=true >}} |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> Feb-Nov/2011 | {{< link text="DIP-MGMNT" path="https://training.gov.au/training/details/bsb51107" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20110906 - Qualification - Diploma of Management - Certificate & Units of Competencies.pdf" title="DIP" newtab=true button=true >}} |
 
 <b>Description</b>
 
@@ -258,7 +258,7 @@ This qualification reflects the role of individuals who are engaged to manage th
 
 | Dates | URL| Certificate |
 |---|---|---|
-| Feb/2011 - Nov/2011 | {{< link text="CIV-TAE" path="https://training.gov.au/training/details/tae40110" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20111221 - Qualification - Cert IV Training and Assessment - Certificate and Units of Competencies.pdf" title="TAE Cert" newtab=true button=true >}} |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> Feb-Nov/2011 | {{< link text="CIV-TAE" path="https://training.gov.au/training/details/tae40110" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20111221 - Qualification - Cert IV Training and Assessment - Certificate and Units of Competencies.pdf" title="TAE Cert" newtab=true button=true >}} |
 
 <b>Description</b>
 
