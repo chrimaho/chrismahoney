@@ -4,7 +4,7 @@ date: 2020-10-13
 draft: false
 ---
 
-A Visual Data Exploration Research Project to Better Understand the Nuances of Our Global Nutrition
+A Visual Data Exploration research project to better understand the nuances of our Global nutrition.
 
 <!--more-->
 
