@@ -53,8 +53,8 @@ googleAnalytics = "UA-106819690-1"
 
         [[menu.main]]
             parent = "about"
-            name = "Corporate"
-            url = "/page/corporate/"
+            name = "Professional"
+            url = "/page/professional/"
             weight = 2
 
         [[menu.main]]
