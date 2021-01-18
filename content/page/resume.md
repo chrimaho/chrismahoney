@@ -1,20 +1,18 @@
 ---
 title: Resume
-date: 2021-01-07
+date: 2021-01-18
 draft: false
 ---
 
-Embed:
+<!--
+Steps to achieve:
+1. Extract raw HTML from: https://app.enhancv.com/share/e2370d80?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic
+2. Open and modify the page in: https://chrome.google.com/webstore/detail/print-edit-we/olnblpmehglpcallpnbgmikjblmkopia
+3. Save updated HTML to: /partials/enhancv.html
+4. Set up a shortcode in: /shortcodes/enhancv.html
+5. Set the in-line style to fit, using techniques from: https://stackoverflow.com/questions/5581034/is-there-are-way-to-make-a-child-divs-width-wider-than-the-parent-div-using-css4
+-->
 
-<p><embed width="100%" height="1000cm" referrerpolicy="strict-origin" sandbox="allow-scripts allow-same-origin" frameborder="0" src="https://app.enhancv.com/share/e2370d80"></p>
-
-iFrame:
-
-<p><iframe width="100%" height="1000cm" referrerpolicy="allow-scripts allow-same-origin" sandbox="allow-same-origin" frameborder="0" src="https://app.enhancv.com/share/e2370d80"></iframe></p>
-
-Embed PDF:
-
-<object width="100%" height="1000cm" data={{< static "docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" >}} type="application/pdf">
-    <embed src={{< static "docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" >}} type="application/pdf" />
-</object>
-
+<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
+{{< enhancv >}}
+</div>
