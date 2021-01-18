@@ -9,6 +9,6 @@ A Visual Data Exploration Research Project to Better Understand the Nuances of O
 <!--more-->
 
 [![](https://miro.medium.com/max/770/0*rc5UEAvxB_rqOl5s.jpg)](https://medium.com/swlh/exploring-undernourishment-part-1-introduction-and-overview-ff024fa7dd32)
-Image Source: [Food and Agriculture Organisation of the United Nations](http://www.fao.org/3/ca9692en/online/ca9692en.html)
+Image Source: [Food and Agriculture Organisation of the United Nations](https://www.fao.org/3/ca9692en/online/ca9692en.html)
 
 Article originally published on [The Startup](https://medium.com/swlh/exploring-undernourishment-part-1-introduction-and-overview-ff024fa7dd32).
