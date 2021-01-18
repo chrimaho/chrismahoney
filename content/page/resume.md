@@ -6,11 +6,11 @@ draft: false
 
 Embed:
 
-<p><embed width="100%" height="1000cm" frameborder="0" src="https://app.enhancv.com/share/e2370d80?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"></p>
+<p><embed width="100%" height="1000cm" referrerpolicy="strict-origin" sandbox="allow-scripts allow-same-origin" frameborder="0" src="https://app.enhancv.com/share/e2370d80"></p>
 
 iFrame:
 
-<p><iframe src="https://app.enhancv.com/share/e2370d80?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" width="100%" height="1000cm" frameborder="0"></iframe></p>
+<p><iframe width="100%" height="1000cm" referrerpolicy="allow-scripts allow-same-origin" sandbox="allow-same-origin" frameborder="0" src="https://app.enhancv.com/share/e2370d80"></iframe></p>
 
 Embed PDF:
 
