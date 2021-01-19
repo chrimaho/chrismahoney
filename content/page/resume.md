@@ -1,8 +1,13 @@
 ---
-title: Resume
+title: Résumé
 date: 2021-01-18
 draft: false
 ---
+
+This page is best viewed on a computer. It tends to go a little out-of-proportion when viewed on a mobile device.
+
+To see the PDF version: {{< link text="Click Here" path="docs/20210120 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
+
 
 <!--
 Steps to achieve:
@@ -13,6 +18,6 @@ Steps to achieve:
 5. Set the in-line style to fit, using techniques from: https://stackoverflow.com/questions/5581034/is-there-are-way-to-make-a-child-divs-width-wider-than-the-parent-div-using-css4
 -->
 
-<div style="position:relative; width:100vw; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
 {{< enhancv >}}
-</div>
+
+Resume compiled thanks to [EnhanCV.com](https://enhancv.com/)
