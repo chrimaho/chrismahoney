@@ -30,7 +30,7 @@ Steps to achieve:
       2. To: `<link href="/css/enhancv.css" rel="stylesheet">`
 7. Modify the `css/enhancv.css` file to:
    1. Change the link to the WOFF file:
-      1. From: `src:url(/813afd05e2e4cbbbe14c1eb0a0566404.woff) format("woff");`
+      1. From: `src: url(/813afd05e2e4cbbbe14c1eb0a0566404.woff) format("woff");`
       2. To: `src: url(/css/fontawsomeenhancv.woff) format("woff");`
 8. Set up a shortcode in: `/shortcodes/enhancv.html`
 9. Tweak the shortcode and set the in-line `<style>` to fit. Reference techniques from: https://stackoverflow.com/questions/5581034/is-there-are-way-to-make-a-child-divs-width-wider-than-the-parent-div-using-css4
