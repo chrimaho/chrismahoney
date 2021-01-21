@@ -2,7 +2,7 @@
 baseURL = "https://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
 languageCode = "en-au"
-title = "Personal Website"
+title = "Chris Mahoney"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 enableEmoji = true
@@ -32,7 +32,7 @@ googleAnalytics = "UA-106819690-1"
 # Author deets
 [Author]
     name = "Chris Mahoney"
-    website = "chrismahoney.com.au"
+    website = "/"
     email = "chrismahoney@hotmail.com"
     linkedin = "chrimaho"
     medium = "chrimaho"
