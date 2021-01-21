@@ -4,10 +4,9 @@ date: 2021-01-18
 draft: false
 ---
 
-This page is best viewed on a computer. It tends to go a little out-of-proportion when viewed on a mobile device.
+For a PDF version: {{< link text="Click Here" path="docs/20210120 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
 
-To see the PDF version: {{< link text="Click Here" path="docs/20210120 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
-
+*(Best viewed on a computer)*
 
 <!--
 Steps to achieve:
@@ -20,4 +19,4 @@ Steps to achieve:
 
 {{< enhancv >}}
 
-Resume compiled thanks to [EnhanCV.com](https://enhancv.com/)
+Compiled with thanks to [EnhanCV.com](https://enhancv.com/)
