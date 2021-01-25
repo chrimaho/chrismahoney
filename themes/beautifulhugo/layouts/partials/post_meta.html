@@ -8,25 +8,25 @@
     {{ end }}
   {{ end }}
   {{ if .Site.Params.readingTime }}
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
   {{ end }}
   {{ if .Site.Params.wordCount }}
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" }}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" }}
   {{ end }}
   {{ if not .Site.Params.hideAuthor }}
     {{ if .Params.author }}
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;{{ .Params.author | safeHTML }}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-user"></i>&nbsp;{{ .Params.author | safeHTML }}
     {{ else }}
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;{{ .Site.Author.name | safeHTML }}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-user"></i>&nbsp;{{ .Site.Author.name | safeHTML }}
     {{ end }}
   {{ end }}
   {{ if .Site.Params.includePostLocation }}
     {{ if and (.Params.locationName) (.Params.locationURL) }}
-      &nbsp;|&nbsp;<i class="fas fa-globe"></i>&nbsp;<a href="{{ .Params.locationURL }}" target=_blank>{{ .Params.locationName }}</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-globe"></i>&nbsp; Posted to <a href="{{ .Params.locationURL }}" target=_blank>{{ .Params.locationName }}</a>
     {{ end }}
   {{ end }}
   {{- if .Site.Params.staticman -}}
-    &nbsp;|&nbsp;<i class="fas fa-comment"></i>&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-comment"></i>&nbsp;
     {{ $slug := replace .RelPermalink "/" "" }}
     {{ if .Site.Data.comments }}
       {{ $comments := index $.Site.Data.comments $slug }}
