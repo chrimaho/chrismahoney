@@ -25,6 +25,7 @@ googleAnalytics = "UA-106819690-1"
     logo = "images/ChrisMahoneyCorporate.jpg"
     #logo = "images/ChrisMahoneyInspirational_Modified2.jpg"
     favicon = "images/CM_Icon.png"
+    #favicon inspiration: https://www.carmelitasmisioneras.org/wp-content/uploads/2018/01/cropped-cm-1-1.png
     enableGitInfo = true
     commit = "https://github.com/chrimaho/chrismahoney/tree/"
     comments = true
