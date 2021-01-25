@@ -1,3 +1,8 @@
+# Check font
+# 'Additional Qualifications' try new page, check out icons/logos/etc. Try some colour.
+# Doesnt need to be super formal
+# 
+
 # Base configs
 baseURL = "https://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
@@ -12,6 +17,7 @@ googleAnalytics = "UA-106819690-1"
 [Params]
     homeTitle = "Chris Mahoney"
     subtitle = "I try to understand things clearly and explain them well"
+    # 3 words ^^
     dateFormat = "02 Jan 2006"
     date = "2021-01-10"
     mainSections = ["post","posts"]
@@ -22,8 +28,9 @@ googleAnalytics = "UA-106819690-1"
     enableGitInfo = true
     commit = "https://github.com/chrimaho/chrismahoney/tree/"
     comments = true
-    readingTime = true
-    wordCount = true
+    readingTime = false
+    wordCount = false
+    # check and remove the modified date.
     showRelatedPosts = true
     hideAuthor = true
     includePageLastModified = false

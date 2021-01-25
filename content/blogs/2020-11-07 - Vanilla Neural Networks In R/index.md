@@ -7,6 +7,8 @@ draft: false
 
 Take a Look Under The Hood of Neural Network Architecture: Design and Build a Neural Network, from Scratch, in R, without using any Deep Learning Frameworks or Packages.
 
+<!-- Find a way to make people to want to click on the links. Something more catchy and want to follow -->
+
 <!--more-->
 
 [![](https://miro.medium.com/max/1050/0*CXpXUW-LyfJEA7Fg)](https://towardsdatascience.com/vanilla-neural-networks-in-r-43b028f415?sk=f47b3d6f9f539e907d272966fa88bcb8)

@@ -123,6 +123,9 @@ The UTS Master of Data Science and Innovation is a ground-breaking program of st
 Taking a transdisciplinary approach, the course utilises a range of perspectives from diverse fields and integrates them with industry experiences, real-world projects and self-directed study, equipping graduates with an understanding of the potential of analytics to transform practice. The course is delivered in a range of modes, including face-to-face learning and contemporary online experiences in UTS's leading-edge facilities.
 {{% /show-more %}}
 
+
+
+<!-- 
 {{% details "Subjects" %}}
 | ID | Semester | Name | Mark | Info |
 |---|---|---|---|---|
@@ -136,7 +139,7 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 | 36114 | 2021-Feb | Advanced Data Science for Innovation | - | [ADSI](https://handbook.uts.edu.au/subjects/details/36114.html) |
 | 94693 | 2021-Aut | Big Data Engineering | - | [BDE](https://handbook.uts.edu.au/subjects/details/94693.html) |
 | 36105 | 2021-Spr | iLab 2 | - | [iLab2](https://handbook.uts.edu.au/subjects/details/36105.html) |
-{{% /details %}}
+{{% /details %}} -->
 
 <br>
 <hr>
@@ -286,7 +289,14 @@ This qualification reflects the roles of individuals delivering training and ass
 
 # Additional Qualifications
 
-In addition to the above listed courses, I have also completed a number of smaller qualifications, as listed.
+<!-- In addition to the above listed courses, I have also completed a number of smaller qualifications, as listed. -->
+
+<!-- 
+- images will add value
+- add a one-liner that explain what they are, and my involvement in them.
+- Something that adds value overall
+- 
+-->
 
 1. <b>Lean Six Sigma: Continuous Improvement</b></br>
 Green Belt ({{< link text="2017" path="docs/20171207 - Certificate - CI Green Belt.pdf" title="Green Belt" newtab=true button=false >}})<br>
