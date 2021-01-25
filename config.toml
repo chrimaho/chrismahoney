@@ -1,3 +1,8 @@
+# Check font
+# 'Additional Qualifications' try new page, check out icons/logos/etc. Try some colour.
+# Doesnt need to be super formal
+# 
+
 # Base configs
 baseURL = "https://www.chrismahoney.com.au"
 DefaultContentLanguage = "en"
@@ -12,6 +17,7 @@ googleAnalytics = "UA-106819690-1"
 [Params]
     homeTitle = "Chris Mahoney"
     subtitle = "I try to understand things clearly and explain them well"
+    # 3 words ^^
     dateFormat = "02 Jan 2006"
     date = "2021-01-10"
     mainSections = ["post","posts"]
@@ -19,15 +25,17 @@ googleAnalytics = "UA-106819690-1"
     logo = "images/ChrisMahoneyCorporate.jpg"
     #logo = "images/ChrisMahoneyInspirational_Modified2.jpg"
     favicon = "images/CM_Icon.png"
+    #favicon inspiration: https://www.carmelitasmisioneras.org/wp-content/uploads/2018/01/cropped-cm-1-1.png
     enableGitInfo = true
     commit = "https://github.com/chrimaho/chrismahoney/tree/"
     comments = true
-    readingTime = true
-    wordCount = true
+    readingTime = false
+    wordCount = false
     showRelatedPosts = true
     hideAuthor = true
     includePageLastModified = false
     includePostLastModified = false
+    includePostLocation = true
 
 # Author deets
 [Author]

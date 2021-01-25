@@ -49,6 +49,20 @@ Good reference sites for emoji's:
 - 🤝 I would love to collaborate more with other like-minded individuals
 - 🛩️ Fun fact: I used to fly Glider aircraft as a hobby
 
+<!-- 
+- Education/Professional as a one liner
+- Emoji's or Dot-points, pick one
+- Take out excessive words
+- Put fun fact first
+- Share info about myself, interesting stuff
+- Wording needs to be more impactful, check tense
+- check other about pages and see what other people do
+- clarity around the icons&logos
+- Use proper Rotary logo
+- re-order, most interesting/relatable, not necessarily the chronological order
+- 
+-->
+
 ---
 
 ### My Languages:
@@ -72,7 +86,7 @@ Good reference sites for emoji's:
 
 </br>
 
-### Corporate Experience:
+### Professional Experience:
 
 [<img class="badge-container" alt="Toll" src="https://posttrack.com/cdn/images/carriers/icons/0260-toll-group.png" />][toll]
 [<img class="badge-container" alt="TNT" src="https://seeklogo.net/wp-content/uploads/2016/11/tnt-logo-vector-preview.png" />][tnt]
