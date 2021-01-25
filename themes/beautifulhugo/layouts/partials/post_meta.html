@@ -1,7 +1,7 @@
 <span class="post-meta">
   {{ $lastmodstr := default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}
   {{ $datestr := default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format }}
-  <i class="fas fa-calendar"></i>&nbsp;{{ $datestr | i18n "postedOnDate"}}
+  <i class="fas fa-calendar-alt"></i>&nbsp;{{ $datestr | i18n "postedOnDate"}}
   {{ if .Site.Params.includePostLastModified }}
     {{ if ne $datestr $lastmodstr }}
       &nbsp;{{ $lastmodstr | i18n "lastModified"  }}
@@ -18,6 +18,11 @@
       &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;{{ .Params.author | safeHTML }}
     {{ else }}
       &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;{{ .Site.Author.name | safeHTML }}
+    {{ end }}
+  {{ end }}
+  {{ if .Site.Params.includePostLocation }}
+    {{ if and (.Params.locationName) (.Params.locationURL) }}
+      &nbsp;|&nbsp;<i class="fas fa-globe"></i>&nbsp;<a href="{{ .Params.locationURL }}" target=_blank>{{ .Params.locationName }}</a>
     {{ end }}
   {{ end }}
   {{- if .Site.Params.staticman -}}

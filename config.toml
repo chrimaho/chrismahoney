@@ -31,11 +31,11 @@ googleAnalytics = "UA-106819690-1"
     comments = true
     readingTime = false
     wordCount = false
-    # check and remove the modified date.
     showRelatedPosts = true
     hideAuthor = true
     includePageLastModified = false
     includePostLastModified = false
+    includePostLocation = true
 
 # Author deets
 [Author]

@@ -2,6 +2,8 @@
 title: Vanilla Neural Networks in R
 date: 2020-11-07
 draft: false
+locationName: TowardsDataScience.com
+locationURL: https://towardsdatascience.com/vanilla-neural-networks-in-r-43b028f415?sk=f47b3d6f9f539e907d272966fa88bcb8
 #bigimg: [{src: "img/bigimg.jpeg", desc: "Image source: [GitHub](www.github.com)"}]
 ---
 
