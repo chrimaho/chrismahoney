@@ -377,7 +377,7 @@ footer .theme-by {
 .page-meta {
   color: #808080;
   font-size: 18px;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 0 0 10px;
 }
 .page-meta {
