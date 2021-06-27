@@ -5,108 +5,61 @@ draft: false
 ---
 
 <style>
-.edu-container {
-    position: relative;
-    width: 20%;
-    margin: 10px;
-}
 
-.edu-image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .1s ease;
-    backface-visibility: hidden;
-}
+    details > summary {
+        cursor: pointer;
+        display: list-item;
+    }
 
-.edu-middle {
-    transition: .1s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
+    .edu-container {
+        position: relative;
+        width: 20%;
+        margin: 10px;
+    }
 
-.edu-container:hover .edu-image {
-    opacity: 0.2;
-}
+    .edu-image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .1s ease;
+        backface-visibility: hidden;
+    }
 
-.edu-container:hover .edu-middle {
-    opacity: 1;
-}
+    .edu-middle {
+        transition: .1s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
 
-.edu-text {
-    background-color: lightgrey;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 2px 2px;
-    opacity: 0.7;
-}
+    .edu-container:hover .edu-image {
+        opacity: 0.2;
+    }
 
-.edu-media {
-    display: flex;
-    justify-content: center;
-}
+    .edu-container:hover .edu-middle {
+        opacity: 1;
+    }
+
+    .edu-text {
+        background-color: lightgrey;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 2px 2px;
+        opacity: 0.7;
+    }
+
+    .edu-media {
+        display: flex;
+        justify-content: center;
+    }
+
 </style>
-
-<!--
-<div class="well"><p>
-All of my academic courses have been listed for convenient access and information.
-</p></div>
--->
-
-<!--
-<div class="edu-media">
-    <div class="edu-container">
-        <a href="{{< relref "#mdsi" >}}" title="University of Technology Sydney">
-            <img class="edu-image" alt="Masters of Data Science and Innovation" src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" />
-            <div class="edu-middle">
-                <div class="edu-text">Masters of Data Science and Innovation</div>
-            </div>
-        </a>
-    </div>
-    <div class="edu-container">
-        <a href="{{< relref "#balct" >}}" title="University of Western Sydney">
-            <img class="edu-image" alt="Bachelor of Applied Leadership and Critical Thinking" src="https://www.greeningaustralia.org.au/wp-content/uploads/2020/06/Western-Sydney-University_Stacked-Logo-200x200-1.png" />
-            <div class="edu-middle">
-                <div class="edu-text">Bachelor of Applied Leadership and Critical Thinking</div>
-            </div>
-        </a>
-    </div>
-    <div class="edu-container">
-        <a href="{{< relref "#bbc-abl" >}}" title="University of Western Sydney">
-            <img class="edu-image" alt="Bachelor of Business & Commerce (Advanced Business Leadership)" src="https://www.greeningaustralia.org.au/wp-content/uploads/2017/11/University-of-Western-Sydney-final.png" />
-            <div class="edu-middle">
-                <div class="edu-text">Bachelor of Business & Commerce (Advanced Business Leadership)</div>
-            </div>
-        </a>
-    </div>
-    <div class="edu-container">
-        <a href="{{< relref "#dip-man" >}}" title="Benchmark College">
-            <img class="edu-image" alt="Diploma of Management" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" />
-            <div class="edu-middle">
-                <div class="edu-text">Diploma of Management</div>
-            </div>
-        </a>
-    </div>
-    <div class="edu-container">
-        <a href="{{< relref "#cert-iv-tae" >}}" title="Benchmark College">
-            <img class="edu-image" alt="Cert IV Training and Assessment" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU"/>
-            <div class="edu-middle">
-                <div class="edu-text">Cert IV Training and Assessment</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<br>
-<br>
- -->
 
 <img src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" style="height:160px;" align="left" />
 # Masters of Data Science & Innovation {#mdsi}
@@ -125,7 +78,6 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 
 
 
-<!-- 
 {{% details "Subjects" %}}
 | ID | Semester | Name | Mark | Info |
 |---|---|---|---|---|
@@ -136,10 +88,10 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 | 36104 | 2020-Aut | Data Visualisation and Narratives | HD | [DVN](https://handbook.uts.edu.au/2020/subjects/details/36104.html) |
 | 94691 | 2020-Aut | Deep Learning | HD | [DL](https://handbook.uts.edu.au/2020/subjects/details/94691.html) |
 | 36102 | 2020-Spr | iLab 1 | HD | [iLab1](https://handbook.uts.edu.au/2020/subjects/details/36102.html) |
-| 36114 | 2021-Feb | Advanced Data Science for Innovation | - | [ADSI](https://handbook.uts.edu.au/subjects/details/36114.html) |
-| 94693 | 2021-Aut | Big Data Engineering | - | [BDE](https://handbook.uts.edu.au/subjects/details/94693.html) |
+| 36114 | 2021-Feb | Advanced Data Science for Innovation | HD | [ADSI](https://handbook.uts.edu.au/subjects/details/36114.html) |
+| 94693 | 2021-Aut | Big Data Engineering | HD | [BDE](https://handbook.uts.edu.au/subjects/details/94693.html) |
 | 36105 | 2021-Spr | iLab 2 | - | [iLab2](https://handbook.uts.edu.au/subjects/details/36105.html) |
-{{% /details %}} -->
+{{% /details %}}
 
 <br>
 <hr>
@@ -289,27 +241,28 @@ This qualification reflects the roles of individuals delivering training and ass
 
 # Additional Qualifications
 
-<!-- In addition to the above listed courses, I have also completed a number of smaller qualifications, as listed. -->
+1. <b>Lean Six Sigma: Continuous Improvement</b>
+<br>Lean Six Sigma is a method of improving business performance that relies on a collaborative team effort to improve operational efficiency by systematically removing waste and reducing variation.
+<br>- *Green Belt*: {{< link text="2017" path="docs/20171207 - Certificate - CI Green Belt.pdf" title="Green Belt" newtab=true button=false >}}
+<br>- *Yellow Belt*: {{< link text="2016" path="/docs/20160701 - Certificate - CI Yellow Belt.pdf" title="Yellow Belt" newtab=true button=false >}}
 
-<!-- 
-- images will add value
-- add a one-liner that explain what they are, and my involvement in them.
-- Something that adds value overall
-- 
--->
+1. <b>Paul Harris Fellow</b>
+<br>For significant assistance given for the furtherance of understanding and friendly relations among peoples of the world.
+<br>- *Awarded*: {{< link text="2018" path="docs/20180427 - Paul Harris Fellow.pdf" title="Paul Harris Fellow" newtab=true button=false >}}
+<br>- *1st Sapphire*: 2020
 
-1. <b>Lean Six Sigma: Continuous Improvement</b></br>
-Green Belt ({{< link text="2017" path="docs/20171207 - Certificate - CI Green Belt.pdf" title="Green Belt" newtab=true button=false >}})<br>
-Yellow Belt ({{< link text="2016" path="/docs/20160701 - Certificate - CI Yellow Belt.pdf" title="Yellow Belt" newtab=true button=false >}})
-1. <b>Paul Harris Fellow</b> ({{< link text="2018" path="docs/20180427 - Paul Harris Fellow.pdf" title="Paul Harris Fellow" newtab=true button=false >}})<br>
-For significant assistance given for the furtherance of understanding and friendly relations among peoples of the world.
-1. <b>Rotary Youth Leadership Awards</b> ({{< link text="RYLA" path="https://rotarydistrict9685.org.au/sitepage/ryla" title="RYLA Website" newtab=true button=false >}})<br>
-Facilitator: 2016, 2019, 2020<br>
-Participant: 2015
-1. <b>Rotary Youth Program of Enrichment</b> ({{< link text="RYPEN" path="https://rotarydistrict9685.org.au/page/rypen" title="RYPEN Website" newtab=true button=false >}})<br>
-Facilitator: 2015-2019 (Summer)<br>
-Mentor: 2015-2019 (Winter)
-1. <b>Duke of Edinburgh's Award</b><br>
-Gold ({{< link text="2009" path="docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" title="Gold DEA" newtab=true >}})<br>
-Silver ({{< link text="2007" path="docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" title="Silver DEA" newtab=true >}})<br>
-Bronze ({{< link text="2006" path="docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" title="Bronze DEA" newtab=true >}})
+1. <b>Rotary Youth Leadership Awards</b> ({{< link text="RYLA" path="https://rotarydistrict9685.org.au/sitepage/ryla" title="RYLA Website" newtab=true button=false >}})
+<br>RYLA is a transformational 7-day leadership program targeted at young Australians aged between 19 and 27, and is delivered by Rotary International. As a Facilitator on this program, I helped to run the program, and to challenge and enrich the experience of our participants.
+<br>- *Facilitator*: 2016, 2019, 2020
+<br>- *Participant*: 2015
+
+1. <b>Rotary Youth Program of Enrichment</b> ({{< link text="RYPEN" path="https://rotarydistrict9685.org.au/page/rypen" title="RYPEN Website" newtab=true button=false >}})
+<br>RYPEN is an intensive residential weekend, designed for young people aged approximately 14 to 16. As a Facilitator/Mentor, I helped to deliver the program, and to motivate and inspire our participants.
+<br>- *Facilitator*: 2015-2019 (Summer)
+<br>- *Mentor*: 2015-2019 (Winter)
+
+1. <b>Duke of Edinburgh's Award</b>
+<br>The Award is a leading structured (non-formal education) youth development program, empowering all young Australians aged 14-24 to explore their full potential and find their purpose, passion and place in the world, regardless of their location or circumstance.
+<br>- *Gold*: {{< link text="2009" path="docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" title="Gold DEA" newtab=true >}}
+<br>- *Silver*: {{< link text="2007" path="docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" title="Silver DEA" newtab=true >}}
+<br>- *Bronze*: {{< link text="2006" path="docs/20060831 - Certificate - Duke of Edinburgh Bronze.pdf" title="Bronze DEA" newtab=true >}}
