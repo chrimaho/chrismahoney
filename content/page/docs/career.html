@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <style>
+            .bold {
+                font-weight: bold;
+            }
+        </style>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+
+            google.charts.load("current", {packages:["timeline"]});
+            google.charts.setOnLoadCallback(drawChart);
+            
+            DDate = class extends Date {
+                constructor(...options) {
+                    if (options.length) {
+                        super(...options).setMonth(parseInt(...options.slice(1,2))-1);
+                        //console.log(this);
+                    } else {
+                        super(Date.now());
+                    }
+                }
+            };
+            
+            function row(start, finish, type, organisation, name, full) {
+                
+                var strArray=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                var tool = ''
+                var uni = ''
+                var degree = ''
+                
+                tool = tool +
+                    '<div style="padding: 5px 5px 5px 5px; font-family: Helvetica;">'
+                
+                if (type=='work') {
+                    tool = tool +
+                        '<b>Company:</b> ' + organisation + '<br>' +
+                        '<b>Title:</b> ' + name + '<br>'
+                } else if (type=='uni') {
+                    
+                    if (organisation=='ABL') {
+                        organisation = 'UWS: ' + organisation
+                        uni = 'University of Western Sydney'
+                        degree = 'Bachelor of Business and Commerce (Advanced Business Leadership)'
+                    } else if (organisation=='BALCT') {
+                        organisation = 'WSU: ' + organisation
+                        uni = 'Western Sydney University'
+                        degree = 'Bachelor of Applied Leadership and Critical Thinking'
+                    } else if (organisation=='MDSI') {
+                        organisation = 'UTS: ' + organisation
+                        uni = 'University of Technology Sydney'
+                        degree = 'Masters of Data Science and Technology'
+                    }
+                    
+                    tool = tool + 
+                        '<b>Uni:</b> ' + uni + '<br>' +
+                        '<b>Degree:</b> ' + degree + '<br>' +
+                        '<b>Subject:</b> ' + full + ' (' + name + ')'
+                    
+                    name = ''
+
+                } else if (type='rotary') {
+
+                    tool = tool +
+                        '<b>Organisation:</b> ' + organisation + '<br>' +
+                        '<b>Role:</b> ' + name + '<br>'
+                    name = ''
+                
+                } else {
+                    tool = tool
+                }
+                
+                tool = tool +
+                    '<hr>' +
+                    '<b>Start:</b> ' + strArray[start.getMonth()] + '/' + start.getFullYear() + '<br>'
+                
+                if (finish=='ongoing') {
+                    tool = tool +
+                        '<b>Finish:</b> Ongoing'
+                    finish = new Date()
+                }
+                
+                tool = tool +
+                    '</div>'
+                
+                return [organisation, name, tool, start, finish]
+            };
+            
+            function drawChart() {
+
+                var container = document.getElementById('career');
+                var chart = new google.visualization.Timeline(container);
+                var dataTable = new google.visualization.DataTable();
+
+                dataTable.addColumn({ type: 'string', id: 'Position' });
+                dataTable.addColumn({ type: 'string', id: 'Name' });
+                dataTable.addColumn({ type: 'string', role: 'tooltip' });
+                dataTable.addColumn({ type: 'date', id: 'Start' });
+                dataTable.addColumn({ type: 'date', id: 'End' });
+
+                dataTable.addRows(
+                    [ row( new Date(2011, 10, 1),   new Date(2013, 1, 2),   'work', 'Toll',             'PM Shift Ops Supervisor'             )
+                    , row( new Date(2013, 1, 1),    new Date(2014, 4, 2),   'work', 'Toll',             'Internal Sales Consultant'           )
+                    , row( new Date(2014, 4, 1),    new Date(2015, 6, 2),   'work', 'Toll',             'NSW Risk Coordinator'                )
+                    , row( new Date(2015, 6, 1),    new Date(2016, 5, 2),   'work', 'Toll',             'Lead Ops Business Analyst'           )
+                    , row( new Date(2016, 5, 1),    new Date(2017, 10, 2),  'work', 'Toll',             'Business Systems Analyst'            )
+                    , row( new Date(2017, 10, 1),   new Date(2018, 4, 2),   'work', 'TNT',              'National Service Quality Analyst'    )
+                    , row( new Date(2018, 6, 1),    new Date(2018, 8, 2),   'work', 'DB Schenker',      'IT BA: Major Account'                )
+                    , row( new Date(2018, 8, 1),    new Date(2019, 3, 2),   'work', 'DB Schenker',      'IT BA: NextGen Migrations'           )
+                    , row( new Date(2019, 3, 1),    new Date(2019, 9, 2),   'work', 'DB Schenker',      'IT BA: NextGen Migrations'           )
+                    , row( new Date(2019, 9, 1),    'ongoing',              'work', 'DB Schenker',      'IT BA: NextGen Migrations'           )
+                    , row( new Date(2012, 1, 1),    new Date(2012, 5, 2),   'uni',  'ABL',              'BAS'                                 , 'Business Academic Skills'                    )
+                    , row( new Date(2012, 7, 1),    new Date(2012, 11, 2),  'uni',  'ABL',              'AIM'                                 , 'Accounting Information for Managers'         )
+                    , row( new Date(2013, 1, 1),    new Date(2013, 5, 2),   'uni',  'ABL',              'SB'                                  , 'Statistics for Business'                     )
+                    , row( new Date(2013, 1, 1),    new Date(2013, 5, 2),   'uni',  'ABL',              'IBL'                                 , 'Introduction to Business Law'                )
+                    , row( new Date(2013, 7, 1),    new Date(2013, 11, 2),  'uni',  'ABL',              'SM'                                  , 'Strategic Management'                        )
+                    , row( new Date(2013, 7, 1),    new Date(2013, 11, 2),  'uni',  'ABL',              'PoE'                                 , 'Principles of Economics'                     )
+                    , row( new Date(2014, 1, 1),    new Date(2014, 5, 2),   'uni',  'ABL',              'CCM'                                 , 'Cross Cultural Management'                   )
+                    , row( new Date(2014, 1, 1),    new Date(2014, 5, 2),   'uni',  'ABL',              'GOLM'                                , 'Global Operations and Logistics Management'  )
+                    , row( new Date(2014, 7, 1),    new Date(2014, 11, 2),  'uni',  'ABL',              'MoC'                                 , 'Management of Change'                        )
+                    , row( new Date(2014, 7, 1),    new Date(2014, 11, 2),  'uni',  'ABL',              'OLD'                                 , 'Organisational Learning and Development'     )
+                    , row( new Date(2015, 1, 1),    new Date(2015, 5, 2),   'uni',  'ABL',              'BL'                                  , 'Business Leadership'                         )
+                    , row( new Date(2015, 1, 1),    new Date(2015, 5, 2),   'uni',  'ABL',              'L&E'                                 , 'Leadership and Entrepreneurship'             )
+                    , row( new Date(2015, 7, 1),    new Date(2015, 11, 2),  'uni',  'ABL',              'CMI'                                 , 'Contemporary Management Issues'              )
+                    , row( new Date(2015, 7, 1),    new Date(2015, 11, 2),  'uni',  'ABL',              'ET'                                  , 'Entrepreneurial Team'                        )
+                    , row( new Date(2016, 1, 1),    new Date(2016, 5, 2),   'uni',  'ABL',              'ABS'                                 , 'Advanced Business Seminars'                  )
+                    , row( new Date(2016, 1, 1),    new Date(2016, 5, 2),   'uni',  'ABL',              'FBTA'                                , 'Frontiers of Business Theory and Analysis'   )
+                    , row( new Date(2016, 7, 1),    new Date(2016, 11, 2),  'uni',  'ABL',              'BSP'                                 , 'Business, Society and Policy'                )
+                    , row( new Date(2015, 1, 1),    new Date(2015, 5, 2),   'uni',  'BALCT',            'LCW'                                 , 'Leadership in a Complex World'               )
+                    , row( new Date(2016, 7, 1),    new Date(2016, 11, 2),  'uni',  'BALCT',            'LRA'                                 , 'Logic, Rhetoric and Argumentation'           )
+                    , row( new Date(2016, 11, 1),   new Date(2017, 1, 2),   'uni',  'BALCT',            'ICE'                                 , 'Internship and Community Engagement'         )
+                    , row( new Date(2017, 1, 1),    new Date(2017, 5, 2),   'uni',  'BALCT',            'CIDT'                                , 'Creativity, Innovation and Design Thinking'  )
+                    , row( new Date(2017, 1, 1),    new Date(2017, 5, 2),   'uni',  'BALCT',            'ICT'                                 , 'Introduction to Critical Thinking'           )
+                    , row( new Date(2017, 7, 1),    new Date(2017, 11, 2),  'uni',  'BALCT',            'EL'                                  , 'Ethical Leadership'                          )
+                    , row( new Date(2017, 7, 1),    new Date(2017, 11, 2),  'uni',  'BALCT',            'IL'                                  , 'Innovation Lab'                              )
+                    , row( new Date(2017, 11, 1),   new Date(2018, 1, 2),   'uni',  'BALCT',            'RS'                                  , 'Research Stories'                            )
+                    , row( new Date(2019, 1, 1),    new Date(2019, 5, 2),   'uni',  'MDSI',             'DSI'                                 , 'Data Science for Innovation'                 )
+                    , row( new Date(2019, 1, 1),    new Date(2019, 5, 2),   'uni',  'MDSI',             'DAM'                                 , 'Data Algorithms and Applications'            )
+                    , row( new Date(2019, 7, 1),    new Date(2019, 11, 2),  'uni',  'MDSI',             'LDSI'                                , 'Leading Data Science Initiatives'            )
+                    , row( new Date(2019, 7, 1),    new Date(2019, 11, 2),  'uni',  'MDSI',             'STDS'                                , 'Statistical Thinking for Data Science'       )                                          
+                    , row( new Date(2020, 1, 1),    new Date(2020, 5, 2),   'uni',  'MDSI',             'DL'                                  , 'Deep Learning'                               )
+                    , row( new Date(2020, 1, 1),    new Date(2020, 5, 2),   'uni',  'MDSI',             'DVN'                                 , 'Data Visualisation and Narratives'           )
+                    , row( new Date(2020, 7, 1),    new Date(2020, 11, 2),  'uni',  'MDSI',             'iLab1'                               , 'Innovation Lab 1'                                      )
+                    , row( new Date(2021, 0, 20),   new Date(2021, 2, 2),   'uni',  'MDSI',             'ADSI'                                , 'Advanced Data Science for Innovation'        )
+                    , row( new Date(2021, 2, 1),    new Date(2021, 5, 2),   'uni',  'MDSI',             'BDE'                                 , 'Big Data Engineering'                        )
+                    , row( new Date(2021, 7, 1),    new Date(2021, 11, 2),  'uni',  'MDSI',             'iLab2'                               , 'Innovation Lab 2'                                      )
+                    , row( new Date(2021, 7, 1),    new Date(2021, 11, 2),  'intl', 'International',    'iLab2'                               )
+                    , row( new Date(2015, 0, 11),   new Date(2015, 0, 17),  'rot',  'Rotary',           'RYLA 2015'                           )
+                    , row( new Date(2016, 0, 11),   new Date(2016, 0, 17),  'rot',  'Rotary',           'RYLA 2016'                           )
+                    , row( new Date(2019, 0, 11),   new Date(2019, 0, 17),  'rot',  'Rotary',           'RYLA 2019'                           )
+                    , row( new Date(2020, 0, 11),   new Date(2020, 0, 17),  'rot',  'Rotary',           'RYLA 2020'                           )
+                    , row( new Date(2021, 0, 11),   new Date(2021, 0, 17),  'rot',  'Rotary',           'RYLA 2021'                           )
+                    , row( new Date(2015, 1, 1),    new Date(2015, 1, 4),   'rot',  'Rotary',           'RYPEN 2015'                          )
+                    , row( new Date(2016, 1, 1),    new Date(2016, 1, 4),   'rot',  'Rotary',           'RYPEN 2016'                          )
+                    , row( new Date(2017, 1, 1),    new Date(2017, 1, 4),   'rot',  'Rotary',           'RYPEN 2017'                          )
+                    , row( new Date(2018, 1, 1),    new Date(2018, 1, 4),   'rot',  'Rotary',           'RYPEN 2018'                          )
+                    , row( new Date(2019, 1, 1),    new Date(2019, 1, 4),   'rot',  'Rotary',           'RYPEN 2019'                          )
+                    , row( new Date(2015, 5, 18),   new Date(2015, 5, 20),  'rot',  'Rotary',           'RYPEN 2015'                          )
+                    , row( new Date(2016, 5, 18),   new Date(2016, 5, 20),  'rot',  'Rotary',           'RYPEN 2016'                          )
+                    , row( new Date(2017, 5, 18),   new Date(2017, 5, 20),  'rot',  'Rotary',           'RYPEN 2017'                          )
+                    , row( new Date(2018, 5, 18),   new Date(2018, 5, 20),  'rot',  'Rotary',           'RYPEN 2018'                          )
+                    , row( new Date(2019, 5, 18),   new Date(2019, 5, 20),  'rot',  'Rotary',           'RYPEN 2019'                          )
+                    ]
+                );
+                
+                var options = {
+                    tooltip: {isHtml: true},
+                    timeline: {
+                        groupByRowLabel: true,
+                        colorByRowLabel: true
+                    }
+                };
+
+                chart.draw(dataTable, options);
+            };
+
+        </script>
+    </head>
+    <body>
+        <div id="career" style="height:600px; width:1000px"></div>
+    </body>
+</html>
