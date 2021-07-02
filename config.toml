@@ -16,7 +16,7 @@ googleAnalytics = "UA-106819690-1"
 # Site params
 [Params]
     homeTitle = "Chris Mahoney"
-    subtitle = "I try to understand things clearly and explain them well"
+    subtitle = "Data Scientist | Business Leader | Innovation Champion"
     # 3 words ^^
     dateFormat = "02 Jan 2006"
     date = "2021-01-10"
