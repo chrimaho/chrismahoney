@@ -1,0 +1,54 @@
+{{ if .IsNamedParams }}
+{{- .Scratch.Set "url" (.Get "url") -}}
+{{- .Scratch.Set "title" (.Get "title") -}}
+{{- .Scratch.Set "subtitle" (.Get "subtitle") -}}
+{{- .Scratch.Set "image" (.Get "image") -}}
+{{- .Scratch.Set "publicationlink" (.Get "publicationlink") -}}
+{{- .Scratch.Set "publicationname" (.Get "publicationname") -}}
+{{- .Scratch.Set "publicationicon" (.Get "publicationicon") -}}
+{{ else }}
+{{ if .Get 0 }}{{- .Scratch.Set "url" (.Get 0) -}}{{ end }}
+{{ if .Get 1 }}{{- .Scratch.Set "title" (.Get 1) -}}{{ end }}
+{{ if .Get 2 }}{{- .Scratch.Set "subtitle" (.Get 2) -}}{{ end }}
+{{ if .Get 3 }}{{- .Scratch.Set "image" (.Get 3) -}}{{ end }}
+{{ if .Get 4 }}{{- .Scratch.Set "publicationlink" (.Get 4) -}}{{ end }}
+{{ if .Get 5 }}{{- .Scratch.Set "publicationname" (.Get 5) -}}{{ end }}
+{{ if .Get 5 }}{{- .Scratch.Set "publicationicon" (.Get 5) -}}{{ end }}
+{{ end }}
+{{- "" -}}
+<style>
+    a {
+        color: black;
+        display: inline-block;
+    }
+    p a {
+        color: black;
+        display: inline-block;
+    }
+    a img {
+        vertical-align: center;
+    }
+</style>
+<div style="border: 1px solid lightgray;">
+    <a href={{ (.Scratch.Get "url") | safeURL }}>
+        <div style="margin: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+            <img src={{(.Scratch.Get "image") | safeURL }} alt={{(.Scratch.Get "title")}}>
+            <p>
+                <span style="font-weight: bold; font-size:xx-large;">
+                    {{ (.Scratch.Get "title") }}
+                </span>
+                <br>
+                <span style="font-size: smaller;">
+                    {{ (.Scratch.Get "subtitle") }}
+                </span>
+                <br>
+                <div>
+                    <a href={{(.Scratch.Get "publicationlink") | safeURL}} style="display: inline-block;">
+                        <img src={{(.Scratch.Get "publicationicon")}} alt={{(.Scratch.Get "publicationname")}} width="20px" height="20px" align="left" style="vertical-align: center;">
+                        <span style="color: gray; font-size: smaller; vertical-align: middle;">{{(.Scratch.Get "publicationname")}}</span>
+                    </a>
+                </div>
+            </p>
+        </div>
+    </a>
+</div>
