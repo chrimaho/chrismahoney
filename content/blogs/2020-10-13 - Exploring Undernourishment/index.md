@@ -2,6 +2,8 @@
 title: Exploring Undernourishment
 date: 2020-10-13
 draft: false
+locationName: StartItUp
+locationURL: https://medium.com/swlh/exploring-undernourishment-part-1-introduction-and-overview-ff024fa7dd32
 ---
 
 A Visual Data Exploration research project to better understand the nuances of our Global nutrition.
