@@ -16,8 +16,6 @@ draft: false
 }
 </style>
 
-### Hi there, I'm Chris 👋
-
 <!-- 
 Good references:
 - Shield details: https://shields.io/#your-badge
@@ -33,7 +31,7 @@ Good references:
 
 <br>
 
-### I'm a Data Scientist, Data Analyst, and all round Data Guru!
+### Passionate Data Scientist, Data Analyst, and Data Guru
 
 <!--
 Good reference sites for emoji's:
@@ -43,29 +41,19 @@ Good reference sites for emoji's:
 - https://unicode.org/emoji/charts/full-emoji-list.html
 -->
 
-- 🤵 I am currently working for [DB Schenker][dbschenker]
-- 🎓 I am currently studying at [UTS][uts]
-- 👨‍💻 I am keen to contribute to more Open Source projects
-- 🤝 I would love to collaborate more with other like-minded individuals
-- 🛩️ Fun fact: I used to fly Glider aircraft as a hobby
+- Fun fact: I have a Pilot's License
+- Working for [DB Schenker][dbschenker]
+- Studying at [UTS][uts]
+- Looking for more Open Source projects
+- Keen to work with like-minded people
 
 <!-- 
-- Education/Professional as a one liner
-- Emoji's or Dot-points, pick one
-- Take out excessive words
-- Put fun fact first
 - Share info about myself, interesting stuff
-- Wording needs to be more impactful, check tense
-- check other about pages and see what other people do
-- clarity around the icons&logos
-- Use proper Rotary logo
-- re-order, most interesting/relatable, not necessarily the chronological order
-- 
 -->
 
 ---
 
-### My Languages:
+### Programming Languages:
 
 [<img class="badge-container" alt="Python" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />][python]
 [<img class="badge-container" alt="R" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" />][r]
@@ -76,7 +64,7 @@ Good reference sites for emoji's:
 
 </br>
 
-### My IDE's:
+### Coding Platforms:
 
 [<img class="badge-container" alt="Visual Studio Code" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" />][vscode]
 [<img class="badge-container" alt="RStudio" src="https://enholm.net/wp-content/uploads/2015/08/RStudio-Ball.png" />][rstudio]
@@ -91,7 +79,7 @@ Good reference sites for emoji's:
 [<img class="badge-container" alt="Toll" src="https://posttrack.com/cdn/images/carriers/icons/0260-toll-group.png" />][toll]
 [<img class="badge-container" alt="TNT" src="https://seeklogo.net/wp-content/uploads/2016/11/tnt-logo-vector-preview.png" />][tnt]
 [<img class="badge-container" alt="Rotary" src="https://clubrunner.blob.core.windows.net/00000050229/Images/RotaryMoE_RGB.png" />][rotary]
-[<img class="badge-container" alt="DB Schenker" src="https://www.spirable.com/wp-content/uploads/2019/06/Untitled-design-2.png" />][schenker]
+[<img class="badge-container" alt="DB Schenker" src="https://seekvectorlogo.com/wp-content/uploads/2018/04/deutsche-bahn-db-vector-logo-small.png" />][schenker]
 [<img class="badge-container" alt="UTS" src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" />][schenker]
 
 </br>
@@ -111,23 +99,6 @@ Good reference sites for emoji's:
 More details to follow soon...
 
 ---
-
-
-<!--
-**chrimaho/chrimaho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
--->
 
 [website]: https://chrismahoney.com.au/ "ChrisMahoney.com.au"
 [linkedin]: https://www.linkedin.com/in/chrimaho/ "LinkedIn"
@@ -174,4 +145,102 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 {{< column >}}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 {{< endcolumns >}}
+
+---
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['gantt']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Task ID');
+      data.addColumn('string', 'Task Name');
+      data.addColumn('string', 'Resource');
+      data.addColumn('date', 'Start Date');
+      data.addColumn('date', 'End Date');
+      data.addColumn('number', 'Duration');
+      data.addColumn('number', 'Percent Complete');
+      data.addColumn('string', 'Dependencies');
+
+      data.addRows([
+        ['2014Spring', 'Spring 2014', 'spring',
+         new Date(2014, 2, 22), new Date(2014, 5, 20), null, 100, null],
+        ['2014Summer', 'Summer 2014', 'summer',
+         new Date(2014, 5, 21), new Date(2014, 8, 20), null, 100, null],
+        ['2014Autumn', 'Autumn 2014', 'autumn',
+         new Date(2014, 8, 21), new Date(2014, 11, 20), null, 100, null],
+        ['2014Winter', 'Winter 2014', 'winter',
+         new Date(2014, 11, 21), new Date(2015, 2, 21), null, 100, null],
+        ['2015Spring', 'Spring 2015', 'spring',
+         new Date(2015, 2, 22), new Date(2015, 5, 20), null, 50, null],
+        ['2015Summer', 'Summer 2015', 'summer',
+         new Date(2015, 5, 01), new Date(2015, 5, 30), null, 0, null],
+        ['2015Autumn', 'Autumn 2015', 'autumn',
+         new Date(2015, 8, 21), new Date(2015, 11, 20), null, 0, null],
+        ['2015Winter', 'Winter 2015', 'winter',
+         new Date(2015, 11, 21), new Date(2016, 2, 21), null, 0, null],
+        ['Football', 'Football Season', 'sports',
+         new Date(2014, 8, 4), new Date(2015, 1, 1), null, 100, null],
+        ['Baseball', 'Baseball Season', 'sports',
+         new Date(2015, 2, 31), new Date(2015, 9, 20), null, 14, null],
+        ['Basketball', 'Basketball Season', 'sports',
+         new Date(2014, 9, 28), new Date(2015, 5, 20), null, 86, null],
+        ['Hockey', 'Hockey Season', 'sports',
+         new Date(2014, 9, 8), new Date(2015, 5, 21), null, 89, null]
+      ]);
+
+      var options = {
+        height: 400,
+        gantt: {
+          trackHeight: 30
+        }
+      };
+
+      var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+</script>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+
+    var container = document.getElementById('example3.1');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Position' });
+    dataTable.addColumn({ type: 'string', id: 'Name' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+      [ 'President', 'George Washington', new Date(1789, 3, 30), new Date(1797, 2, 4) ],
+      [ 'President', 'John Adams', new Date(1797, 2, 4), new Date(1801, 2, 10) ],
+      [ 'President', 'Thomas Jefferson', new Date(1801, 2, 4), new Date(1809, 2, 4) ],
+      [ 'Vice President', 'John Adams', new Date(1789, 3, 21), new Date(1797, 2, 4)],
+      [ 'Vice President', 'Thomas Jefferson', new Date(1797, 2, 4), new Date(1801, 2, 4)],
+      [ 'Vice President', 'Aaron Burr', new Date(1801, 2, 4), new Date(1805, 2, 4)],
+      [ 'Vice President', 'George Clinton', new Date(1805, 2, 4), new Date(1812, 3, 20)],
+      [ 'Secretary of State', 'John Jay', new Date(1789, 8, 25), new Date(1790, 2, 22)],
+      [ 'Secretary of State', 'Thomas Jefferson', new Date(1790, 2, 22), new Date(1793, 11, 31)],
+      [ 'Secretary of State', 'Edmund Randolph', new Date(1794, 0, 2), new Date(1795, 7, 20)],
+      [ 'Secretary of State', 'Timothy Pickering', new Date(1795, 7, 20), new Date(1800, 4, 12)],
+      [ 'Secretary of State', 'Charles Lee', new Date(1800, 4, 13), new Date(1800, 5, 5)],
+      [ 'Secretary of State', 'John Marshall', new Date(1800, 5, 13), new Date(1801, 2, 4)],
+      [ 'Secretary of State', 'Levi Lincoln', new Date(1801, 2, 5), new Date(1801, 4, 1)],
+      [ 'Secretary of State', 'James Madison', new Date(1801, 4, 2), new Date(1809, 2, 3)]
+    ]);
+
+    chart.draw(dataTable);
+  }
+</script>
+
+
+<div style="border: solid 1px; padding: 10px" id="chart_div"></div>
+<br>
+<div id="example3.1" style="height: 200px;"></div>
 
