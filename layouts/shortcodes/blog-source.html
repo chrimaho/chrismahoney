@@ -17,6 +17,7 @@
 {{ end }}
 {{- "" -}}
 <style>
+    /*
     a {
         color: black;
         display: inline-block;
@@ -28,24 +29,45 @@
     a img {
         vertical-align: center;
     }
+    */
+    .blog-container {
+        border: 1px solid lightgray;
+        padding: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .blog-link {
+        color: #000;
+    }
+    .blog-title {
+        font-weight: bold; 
+        font-size: xxx-large;
+    }
+    .blog-subtitle {
+        font-size: large;
+    }
+    .blog-publication {
+        color: #aaa;
+        vertical-align: top;
+        font-size: smaller;
+    }
 </style>
-<div style="border: 1px solid lightgray;">
-    <a href={{ (.Scratch.Get "url") | safeURL }}>
-        <div style="margin: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+<div class="blog-container">
+    <a class="blog-link" href={{ (.Scratch.Get "url") | safeURL }}>
+        <div>
             <img src={{(.Scratch.Get "image") | safeURL }} alt={{(.Scratch.Get "title")}}>
             <p>
-                <span style="font-weight: bold; font-size:xx-large;">
+                <span class="blog-title">
                     {{ (.Scratch.Get "title") }}
                 </span>
                 <br>
-                <span style="font-size: smaller;">
+                <span class="blog-subtitle">
                     {{ (.Scratch.Get "subtitle") }}
                 </span>
                 <br>
                 <div>
-                    <a href={{(.Scratch.Get "publicationlink") | safeURL}} style="display: inline-block;">
-                        <img src={{(.Scratch.Get "publicationicon")}} alt={{(.Scratch.Get "publicationname")}} width="20px" height="20px" align="left" style="vertical-align: center;">
-                        <span style="color: gray; font-size: smaller; vertical-align: middle;">{{(.Scratch.Get "publicationname")}}</span>
+                    <a class="blog-publication" href={{(.Scratch.Get "publicationlink") | safeURL}}>
+                        <img src={{(.Scratch.Get "publicationicon")}} alt={{(.Scratch.Get "publicationname")}} width="20px" height="20px" align="left">
+                        <span>&nbsp;{{(.Scratch.Get "publicationname")}}</span>
                     </a>
                 </div>
             </p>
