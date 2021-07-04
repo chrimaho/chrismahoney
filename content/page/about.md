@@ -250,7 +250,7 @@ Good reference sites for emoji's:
 {{< badge-container
     title="Flask"
     linkurl="https://flask.palletsprojects.com/en/2.0.x/#"
-    iconurl="https://lh3.googleusercontent.com/proxy/hT1OOxxMbtgbSf7pnV_RvJRTydUr-f4xNVJPg724NeRnHZ4C1AEZc0b0945BNLMfk1DkmmrCcN8UtAksuoV8vlwF5IvAKCsIRREBcpN0ftAwPdKp6OSVTh6QuQdsRq8X" 
+    iconurl="https://cdn.tutsplus.com/net/uploads/2013/06/flask-preview-400.jpg" 
 >}}
 
 <br>
