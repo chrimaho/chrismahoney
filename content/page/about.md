@@ -5,29 +5,45 @@ date: 2020-01-15
 draft: false
 ---
 
-<style>
-.badge-container {
-    position: relative;
-    align: left; 
-    display: inline-block; 
-    height: 60px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-</style>
-
 <!-- 
-Good references:
+Good references for badges:
 - Shield details: https://shields.io/#your-badge
 - Good Badges Repo: https://github.com/alexandresanlim/Badges4-README.md-Profile
 - Another good Badges Repo: https://github.com/Ileriayo/markdown-badges 
 -->
 
-[<img class="badge-container" style="height: 20px; margin: 0px;" src="https://img.shields.io/badge/--website?label=Website&logo=home-assistant&style=social" />][website]
-[<img class="badge-container" style="height: 20px; margin: 0px;" src="https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=linkedin&style=social" />][linkedin]
-[<img class="badge-container" style="height: 20px; margin: 0px;" src="https://img.shields.io/badge/--stackoverflow?label=StackOverflow&logo=stack-overflow&style=social" />][stackoverflow]
-[<img class="badge-container" style="height: 20px; margin: 0px;" src="https://img.shields.io/badge/--github?label=GitHub&logo=github&style=social" />][github]
-[<img class="badge-container" style="height: 20px; margin: 0px;" src="https://img.shields.io/badge/--medium?label=Medium&logo=medium&style=social" />][medium]
+<div align="center">
+    {{< badge-container 
+        title="ChrisMahoney.com.au" 
+        linkurl="https://www.chrismahoney.com.au" 
+        iconurl="https://img.shields.io/badge/--website?label=Website&logo=home-assistant&style=social" 
+        type="badge"
+    >}}
+    {{< badge-container 
+        title="LinkedIn" 
+        linkurl="https://www.linkedin.com/in/chrimaho" 
+        iconurl="https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=linkedin&style=social" 
+        type="badge"
+    >}}
+    {{< badge-container 
+        title="StackOverflow" 
+        linkurl="https://stackoverflow.com/users/12036005/chrimaho" 
+        iconurl="https://img.shields.io/badge/--stackoverflow?label=StackOverflow&logo=stack-overflow&style=social" 
+        type="badge"
+    >}}
+    {{< badge-container 
+        title="GitHub" 
+        linkurl="https://github.com/chrimaho" 
+        iconurl="https://img.shields.io/badge/--github?label=GitHub&logo=github&style=social" 
+        type="badge"
+    >}}
+    {{< badge-container 
+        title="Medium" 
+        linkurl="https://medium.com/@chrimaho" 
+        iconurl="https://img.shields.io/badge/--medium?label=Medium&logo=medium&style=social" 
+        type="badge"
+    >}}
+</div>
 
 <br>
 
@@ -41,58 +57,203 @@ Good reference sites for emoji's:
 - https://unicode.org/emoji/charts/full-emoji-list.html
 -->
 
-- Fun fact: I have a Pilot's License
-- Working for [DB Schenker][dbschenker]
-- Studying at [UTS][uts]
+- Fun fact: I have a Glider Pilot's License
+- Working for [DB Schenker](https://www.dbschenker.com/au-en/about/innovation-digitalization)
+- Studying at [UTS](https://mdsi.uts.edu.au)
 - Looking for more Open Source projects
 - Keen to work with like-minded people
 
-<!-- 
-- Share info about myself, interesting stuff
--->
-
 ---
-
-### Programming Languages:
-
-[<img class="badge-container" alt="Python" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />][python]
-[<img class="badge-container" alt="R" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" />][r]
-[<img class="badge-container" alt="t-SQL" src="https://hackr.io/tutorials/learn-sql-server/logo/logo-sql-server?ver=1557508629" />][tsql]
-[<img class="badge-container" alt="Oracle" src="https://www.tenfold.com/wp-content/uploads/2017/05/icon-oracle-sales-cloud.png" />][plsql]
-[<img class="badge-container" alt="PowerQuery" src="https://computrain.com//wp-content/uploads/2018/02/pq-icon-150x150.png" />][powerquery]
-[<img class="badge-container" alt="VB" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_vb.svg" />][vb]
-
-</br>
-
-### Coding Platforms:
-
-[<img class="badge-container" alt="Visual Studio Code" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" />][vscode]
-[<img class="badge-container" alt="RStudio" src="https://enholm.net/wp-content/uploads/2015/08/RStudio-Ball.png" />][rstudio]
-[<img class="badge-container" alt="Jupyter Lab" src="https://miro.medium.com/max/1036/1*FogMIj4gYwp3fTHLZuwavQ.png" />][jupyterlab]
-[<img class="badge-container" alt="SQL Server Management Studio" src="https://www.edureka.co/blog/wp-content/uploads/2019/10/logo.png" />][ssms]
-[<img class="badge-container" alt="Oracle SQL Developer" src="https://www.freeiconspng.com/uploads/sql-server-icon-png-28.png" />][sqldeveloper]
-
-</br>
 
 ### Professional Experience:
 
-[<img class="badge-container" alt="Toll" src="https://posttrack.com/cdn/images/carriers/icons/0260-toll-group.png" />][toll]
-[<img class="badge-container" alt="TNT" src="https://seeklogo.net/wp-content/uploads/2016/11/tnt-logo-vector-preview.png" />][tnt]
-[<img class="badge-container" alt="Rotary" src="https://clubrunner.blob.core.windows.net/00000050229/Images/RotaryMoE_RGB.png" />][rotary]
-[<img class="badge-container" alt="DB Schenker" src="https://seekvectorlogo.com/wp-content/uploads/2018/04/deutsche-bahn-db-vector-logo-small.png" />][schenker]
-[<img class="badge-container" alt="UTS" src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" />][schenker]
+{{< badge-container 
+    title="Toll: 8 years" 
+    linkurl="https://www.tollgroup.com" 
+    iconurl="https://posttrack.com/cdn/images/carriers/icons/0260-toll-group.png" 
+>}}
+{{< badge-container 
+    title="TNT: 1 year" 
+    linkurl="https://www.tnt.com" 
+    iconurl="https://seeklogo.net/wp-content/uploads/2016/11/tnt-logo-vector-preview.png" 
+>}}
+{{< badge-container 
+    title="Rotary: 7 years" 
+    linkurl="http://www.rotaryaustralia.org.au" 
+    iconurl="https://clubrunner.blob.core.windows.net/00000050229/Images/RotaryMoE_RGB.png" 
+>}}
+{{< badge-container 
+    title="DB Schenker: 3 years" 
+    linkurl="https://www.dbschenker.com/au-en/about/innovation-digitalization" 
+    iconurl="https://seekvectorlogo.com/wp-content/uploads/2018/04/deutsche-bahn-db-vector-logo-small.png" 
+>}}
+{{< badge-container 
+    title="UTS MDSI: 2 years" 
+    linkurl="https://mdsi.uts.edu.au" 
+    iconurl="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" 
+>}}
 
-</br>
+<br>
 
 ### Formal Education:
 
-[<img class="badge-container" alt="Cert IV Training and Assessment" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" />][benchmark_cert]
-[<img class="badge-container" alt="Diploma of Management" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" />][benchmark_dipm]
-[<img class="badge-container" alt="Bachelor of Business & Commerce (Advanced Business Leadership)" src="https://www.greeningaustralia.org.au/wp-content/uploads/2017/11/University-of-Western-Sydney-final.png" />][uws_bbcabl]
-[<img class="badge-container" alt="Bachelor of Applied Leadership and Critical Thinking" src="https://www.greeningaustralia.org.au/wp-content/uploads/2020/06/Western-Sydney-University_Stacked-Logo-200x200-1.png" />][wsu_balct]
-[<img class="badge-container" alt="Masters of Data Science and Innovation" src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" />][uts_mdsi]
+{{< badge-container 
+    title="Cert IV Training and Assessment" 
+    linkurl="https://www.benchmark.edu.au" 
+    iconurl="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" 
+>}}
+{{< badge-container 
+    title="Diploma of Management" 
+    linkurl="https://www.benchmark.edu.au" 
+    iconurl="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" 
+>}}
+{{< badge-container 
+    title="Bachelor of Business & Commerce (Advanced Business Leadership)" 
+    linkurl="https://www.westernsydney.edu.au/future/study/courses/undergraduate/bachelor-of-business-advanced-business-leadership.html" 
+    iconurl="https://www.greeningaustralia.org.au/wp-content/uploads/2017/11/University-of-Western-Sydney-final.png" 
+>}}
+{{< badge-container 
+    title="Bachelor of Applied Leadership and Critical Thinking" 
+    linkurl="https://www.westernsydney.edu.au/future/study/courses/undergraduate/bachelor-of-applied-leadership.html" 
+    iconurl="https://www.greeningaustralia.org.au/wp-content/uploads/2020/06/Western-Sydney-University_Stacked-Logo-200x200-1.png" 
+>}}
+{{< badge-container 
+    title="Masters of Data Science and Innovation" 
+    linkurl="https://www.uts.edu.au/future-students/transdisciplinary-innovation/master-data-science-and-innovation/about-master-data-science-and-innovation" 
+    iconurl="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" 
+>}}
 
-</br>
+<br>
+
+### Leadership Experience:
+
+{{< badge-container 
+    title="Rotary Youth Leadership Awards" 
+    linkurl="http://d9685ryla.org.au" 
+    iconurl="https://clubrunner.blob.core.windows.net/00000000932/Images/C--Users-Eric-Redeker-Desktop-RYLA.png" 
+>}}
+{{< badge-container 
+    title="Rotary Youth Program of Enrichment" 
+    linkurl="https://rotarydistrict9685.org.au/page/rypen" 
+    iconurl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Dyhs_S5223T-YDmj_QaPQhpahpvLdMlWqSXBLasMXA8UIQfwdx4CqugaFyL8oCcPaP4&usqp=CAU" 
+>}}
+{{< badge-container 
+    title="AAFC" 
+    linkurl="#" 
+    iconurl="https://upload.wikimedia.org/wikipedia/en/5/59/Crest_of_the_Australian_Air_Force_Cadets_%28Aug_10%29.jpg" 
+>}}
+{{< badge-container
+    title="Model United Nations Assembly"
+    linkurl="https://rotarydistrict9685.org.au/sitepage/muna"
+    iconurl="https://rishitabansal.files.wordpress.com/2017/06/images-duckduckgo-com.jpeg?w=400" 
+>}}
+
+<br>
+
+### Programming Languages:
+
+{{< badge-container
+    title="Python"
+    linkurl="https://www.python.org"
+    iconurl="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" 
+>}}
+{{< badge-container
+    title="R"
+    linkurl="https://www.r-project.org"
+    iconurl="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" 
+>}}
+{{< badge-container
+    title="t-SQL"
+    linkurl="https://www.microsoft.com/en-au/sql-server"
+    iconurl="https://hackr.io/tutorials/learn-sql-server/logo/logo-sql-server?ver=1557508629" 
+>}}
+{{< badge-container
+    title="PL-SQL"
+    linkurl="https://oracle.com/database"
+    iconurl="https://www.tenfold.com/wp-content/uploads/2017/05/icon-oracle-sales-cloud.png" 
+>}}
+{{< badge-container
+    title="PowerQuery"
+    linkurl="https://docs.microsoft.com/en-us/power-query"
+    iconurl="https://computrain.com//wp-content/uploads/2018/02/pq-icon-150x150.png" 
+>}}
+{{< badge-container
+    title="Visual Basic"
+    linkurl="https://docs.microsoft.com/en-us/dotnet/visual-basic"
+    iconurl="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_vb.svg" 
+>}}
+{{< badge-container
+    title="JavaScript"
+    linkurl="https://www.javascript.com"
+    iconurl="https://iconape.com/wp-content/files/ez/353342/svg/javascript-seeklogo.com.svg" 
+>}}
+
+<br>
+
+### Coding Platforms:
+
+{{< badge-container
+    title="Visual Studio Code"
+    linkurl="https://code.visualstudio.com"
+    iconurl="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" 
+>}}
+{{< badge-container
+    title="RStudio"
+    linkurl="https://rstudio.com"
+    iconurl="https://enholm.net/wp-content/uploads/2015/08/RStudio-Ball.png" 
+>}}
+{{< badge-container
+    title="Jupyter Lab"
+    linkurl="https://jupyterlab.readthedocs.io/en/latest"
+    iconurl="https://miro.medium.com/max/1036/1*FogMIj4gYwp3fTHLZuwavQ.png" 
+>}}
+{{< badge-container
+    title="SQL Server Management Studio"
+    linkurl="https://docs.microsoft.com/en-us/sql/ssms"
+    iconurl="https://www.edureka.co/blog/wp-content/uploads/2019/10/logo.png" 
+>}}
+{{< badge-container
+    title="Oracle SQL Developer"
+    linkurl="http://oracle.com/technetwork/developer-tools/sql-developer"
+    iconurl="https://www.freeiconspng.com/uploads/sql-server-icon-png-28.png" 
+>}}
+
+<br>
+
+### Web Development
+
+{{< badge-container
+    title="JavaScript"
+    linkurl="https://www.javascript.com"
+    iconurl="https://iconape.com/wp-content/files/ez/353342/svg/javascript-seeklogo.com.svg" 
+>}}
+{{< badge-container
+    title="HTML5"
+    linkurl="https://dev.w3.org/html5/spec-LC"
+    iconurl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYElfbKjgl3XOcMV7trwAo9eB7cxw4e1q7A&usqp=CAU" 
+>}}
+{{< badge-container
+    title="CSS"
+    linkurl="https://www.w3.org/Style/CSS/Overview.en.html"
+    iconurl="https://www.seekpng.com/png/full/141-1415372_css3-icon-png.png" 
+>}}
+{{< badge-container
+    title="Hugo"
+    linkurl="https://gohugo.io"
+    iconurl="https://static-00.iconduck.com/assets.00/hugo-icon-456x512-ghgrm1yx.png" 
+>}}
+{{< badge-container
+    title="FastAPI"
+    linkurl="https://fastapi.tiangolo.com"
+    iconurl="https://styles.redditmedia.com/t5_22y58b/styles/communityIcon_r5ax236rfw961.png" 
+>}}
+{{< badge-container
+    title="Flask"
+    linkurl="https://flask.palletsprojects.com/en/2.0.x/#"
+    iconurl="https://lh3.googleusercontent.com/proxy/hT1OOxxMbtgbSf7pnV_RvJRTydUr-f4xNVJPg724NeRnHZ4C1AEZc0b0945BNLMfk1DkmmrCcN8UtAksuoV8vlwF5IvAKCsIRREBcpN0ftAwPdKp6OSVTh6QuQdsRq8X" 
+>}}
+
+<br>
 
 ---
 
@@ -100,38 +261,11 @@ More details to follow soon...
 
 ---
 
-[website]: https://chrismahoney.com.au/ "ChrisMahoney.com.au"
-[linkedin]: https://www.linkedin.com/in/chrimaho/ "LinkedIn"
-[github]: https://github.com/chrimaho "GitHub"
-[medium]: https://medium.com/@chrimaho "Medium"
-[stackoverflow]: https://stackoverflow.com/users/12036005/chrimaho "StackOverflow"
-[dbschenker]: https://www.dbschenker.com/au-en/about/innovation-digitalization "DB Schenker"
-[uts]: https://mdsi.uts.edu.au/ "UTS MDSI"
-[python]: https://www.python.org/ "Python"
-[r]: https://www.r-project.org/ "R"
-[tsql]: https://www.microsoft.com/en-au/sql-server/ "t-SQL"
-[plsql]: https://oracle.com/database "PL-SQL"
-[powerquery]: https://docs.microsoft.com/en-us/power-query/ "PowerQuery"
-[vb]: https://docs.microsoft.com/en-us/dotnet/visual-basic/ "Visual Basic"
-[vscode]: https://code.visualstudio.com/ "Visual Studio Code"
-[rstudio]: https://rstudio.com/ "RStudio"
-[jupyterlab]: https://jupyterlab.readthedocs.io/en/latest/ "Jupyter Lab"
-[ssms]: https://docs.microsoft.com/en-us/sql/ssms/ "SQL Server Management Studio"
-[sqldeveloper]: http://oracle.com/technetwork/developer-tools/sql-developer/ "Oracle SQL Developer"
-[toll]: https://www.tollgroup.com/ "Toll: 8 years"
-[tnt]: https://www.tnt.com/ "TNT: 1 year"
-[rotary]: http://www.rotaryaustralia.org.au/ "Rotary: 7 years"
-[schenker]: https://www.dbschenker.com/au-en/about/innovation-digitalization "DB Schenker: 3 years"
-[benchmark_cert]: https://www.benchmark.edu.au/ "Cert IV Training and Assessment"
-[benchmark_dipm]: https://www.benchmark.edu.au/ "Diploma of Management"
-[uws_bbcabl]: https://www.westernsydney.edu.au/future/study/courses/undergraduate/bachelor-of-business-advanced-business-leadership.html "Bachelor of Business & Commerce (Advanced Business Leadership)"
-[wsu_balct]: https://www.westernsydney.edu.au/future/study/courses/undergraduate/bachelor-of-applied-leadership.html "Bachelor of Applied Leadership and Critical Thinking"
-[uts_mdsi]: https://www.uts.edu.au/future-students/transdisciplinary-innovation/master-data-science-and-innovation/about-master-data-science-and-innovation "Masters of Data Science and Innovation"
 
 ![](/images/ChrisMahoneyInspirational_Modified.jpg)
 
-<br>
-<hr>
+
+<!---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  
 
@@ -146,104 +280,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 {{< endcolumns >}}
 
+--->
+
 ---
-
-<!--
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript">
-    google.charts.load('current', {'packages':['gantt']});
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-      var data = new google.visualization.DataTable();
-      data.addColumn('string', 'Task ID');
-      data.addColumn('string', 'Task Name');
-      data.addColumn('string', 'Resource');
-      data.addColumn('date', 'Start Date');
-      data.addColumn('date', 'End Date');
-      data.addColumn('number', 'Duration');
-      data.addColumn('number', 'Percent Complete');
-      data.addColumn('string', 'Dependencies');
-
-      data.addRows([
-        ['2014Spring', 'Spring 2014', 'spring',
-         new Date(2014, 2, 22), new Date(2014, 5, 20), null, 100, null],
-        ['2014Summer', 'Summer 2014', 'summer',
-         new Date(2014, 5, 21), new Date(2014, 8, 20), null, 100, null],
-        ['2014Autumn', 'Autumn 2014', 'autumn',
-         new Date(2014, 8, 21), new Date(2014, 11, 20), null, 100, null],
-        ['2014Winter', 'Winter 2014', 'winter',
-         new Date(2014, 11, 21), new Date(2015, 2, 21), null, 100, null],
-        ['2015Spring', 'Spring 2015', 'spring',
-         new Date(2015, 2, 22), new Date(2015, 5, 20), null, 50, null],
-        ['2015Summer', 'Summer 2015', 'summer',
-         new Date(2015, 5, 01), new Date(2015, 5, 30), null, 0, null],
-        ['2015Autumn', 'Autumn 2015', 'autumn',
-         new Date(2015, 8, 21), new Date(2015, 11, 20), null, 0, null],
-        ['2015Winter', 'Winter 2015', 'winter',
-         new Date(2015, 11, 21), new Date(2016, 2, 21), null, 0, null],
-        ['Football', 'Football Season', 'sports',
-         new Date(2014, 8, 4), new Date(2015, 1, 1), null, 100, null],
-        ['Baseball', 'Baseball Season', 'sports',
-         new Date(2015, 2, 31), new Date(2015, 9, 20), null, 14, null],
-        ['Basketball', 'Basketball Season', 'sports',
-         new Date(2014, 9, 28), new Date(2015, 5, 20), null, 86, null],
-        ['Hockey', 'Hockey Season', 'sports',
-         new Date(2014, 9, 8), new Date(2015, 5, 21), null, 89, null]
-      ]);
-
-      var options = {
-        height: 400,
-        gantt: {
-          trackHeight: 30
-        }
-      };
-
-      var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
-
-      chart.draw(data, options);
-    }
-</script>
-
-<script type="text/javascript">
-  google.charts.load("current", {packages:["timeline"]});
-  google.charts.setOnLoadCallback(drawChart);
-  function drawChart() {
-
-    var container = document.getElementById('example3.1');
-    var chart = new google.visualization.Timeline(container);
-    var dataTable = new google.visualization.DataTable();
-    dataTable.addColumn({ type: 'string', id: 'Position' });
-    dataTable.addColumn({ type: 'string', id: 'Name' });
-    dataTable.addColumn({ type: 'date', id: 'Start' });
-    dataTable.addColumn({ type: 'date', id: 'End' });
-    dataTable.addRows([
-      [ 'President', 'George Washington', new Date(1789, 3, 30), new Date(1797, 2, 4) ],
-      [ 'President', 'John Adams', new Date(1797, 2, 4), new Date(1801, 2, 10) ],
-      [ 'President', 'Thomas Jefferson', new Date(1801, 2, 4), new Date(1809, 2, 4) ],
-      [ 'Vice President', 'John Adams', new Date(1789, 3, 21), new Date(1797, 2, 4)],
-      [ 'Vice President', 'Thomas Jefferson', new Date(1797, 2, 4), new Date(1801, 2, 4)],
-      [ 'Vice President', 'Aaron Burr', new Date(1801, 2, 4), new Date(1805, 2, 4)],
-      [ 'Vice President', 'George Clinton', new Date(1805, 2, 4), new Date(1812, 3, 20)],
-      [ 'Secretary of State', 'John Jay', new Date(1789, 8, 25), new Date(1790, 2, 22)],
-      [ 'Secretary of State', 'Thomas Jefferson', new Date(1790, 2, 22), new Date(1793, 11, 31)],
-      [ 'Secretary of State', 'Edmund Randolph', new Date(1794, 0, 2), new Date(1795, 7, 20)],
-      [ 'Secretary of State', 'Timothy Pickering', new Date(1795, 7, 20), new Date(1800, 4, 12)],
-      [ 'Secretary of State', 'Charles Lee', new Date(1800, 4, 13), new Date(1800, 5, 5)],
-      [ 'Secretary of State', 'John Marshall', new Date(1800, 5, 13), new Date(1801, 2, 4)],
-      [ 'Secretary of State', 'Levi Lincoln', new Date(1801, 2, 5), new Date(1801, 4, 1)],
-      [ 'Secretary of State', 'James Madison', new Date(1801, 4, 2), new Date(1809, 2, 3)]
-    ]);
-
-    chart.draw(dataTable);
-  }
-</script>
-
-
-<div style="border: solid 1px; padding: 10px" id="chart_div"></div>
-<br>
-<div id="example3.1" style="height: 200px;"></div>
-
--->
