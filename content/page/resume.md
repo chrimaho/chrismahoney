@@ -16,10 +16,10 @@ Steps to achieve:
    2. The `app.b8a6a7f97e8c590b5422.css` file (available [here](https://app.enhancv.com/app.b8a6a7f97e8c590b5422.css)).
 3. Also extract the font file `813afd05e2e4cbbbe14c1eb0a0566404.woff` (available [here](https://app.enhancv.com/813afd05e2e4cbbbe14c1eb0a0566404.woff)).
 4. Save the files to:
-   1. The `Enhancv Platform.html` file to: `/partials/enhancv.html`
-   2. The `css` file to: `css/ecv.css`
-   3. The `app.b8a6a7f97e8c590b5422.css` file to: `css/enhancv.css`
-   4. The `813afd05e2e4cbbbe14c1eb0a0566404.woff` file to: `fontawesomeenhancv.woff`
+   1. The `Enhancv Platform.html` file to: `/static/partials/enhancv.html`
+   2. The `css` file to: `/static/css/ecv.css`
+   3. The `app.b8a6a7f97e8c590b5422.css` file to: `/static/css/enhancv.css`
+   4. The `813afd05e2e4cbbbe14c1eb0a0566404.woff` file to: `/static/css/fontawesomeenhancv.woff`
 6. Modify the `/partials/enhancv.html` to:
    1. Remove all `<script>` tags
    2. Remove the `<div>` tag that has: `<div class="initial-loading-container hide">`

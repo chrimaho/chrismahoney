@@ -3,4 +3,4 @@ Title: Projects
 # Subtitle: This
 ---
 
-text
+Throughout my career, I have been part of many different projects. Here are just a few.

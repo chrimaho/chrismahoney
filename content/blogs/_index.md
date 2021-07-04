@@ -3,4 +3,4 @@ Title: Blogs
 # Subtitle: This
 ---
 
-All of the Blogs that I have written are published in various locations. The below list compiles each of these articles for convenient access.
+I have a passion for Data Science, Innovation, Leadership, and trying to make the most out of every situation. You will see these themes reflected in these blogs.
