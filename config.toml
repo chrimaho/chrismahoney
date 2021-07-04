@@ -16,7 +16,7 @@ googleAnalytics = "UA-106819690-1"
 # Site params
 [Params]
     homeTitle = "Chris Mahoney"
-    subtitle = "Data Scientist | Business Leader | Innovation Champion"
+    subtitle = "Data Scientist ｜ Business Leader ｜ Innovation Champion"
     dateFormat = "02 Jan 2006"
     date = "2021-01-10"
     mainSections = ["post","posts"]

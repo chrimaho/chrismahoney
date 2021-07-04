@@ -52,7 +52,7 @@
     }
 </style>
 <div class="blog-container">
-    <a class="blog-link" href={{ (.Scratch.Get "url") | safeURL }}>
+    <a class="blog-link" href={{ (.Scratch.Get "url") | safeURL }} title={{(.Scratch.Get "title")}}>
         <div>
             <img src={{(.Scratch.Get "image") | safeURL }} alt={{(.Scratch.Get "title")}}>
             <p>
@@ -65,7 +65,7 @@
                 </span>
                 <br>
                 <div>
-                    <a class="blog-publication" href={{(.Scratch.Get "publicationlink") | safeURL}}>
+                    <a class="blog-publication" href={{(.Scratch.Get "publicationlink") | safeURL}} title={{(.Scratch.Get "title")}}>
                         <img src={{(.Scratch.Get "publicationicon")}} alt={{(.Scratch.Get "publicationname")}} width="20px" height="20px" align="left">
                         <span>&nbsp;{{(.Scratch.Get "publicationname")}}</span>
                     </a>

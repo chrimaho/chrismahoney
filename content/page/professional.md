@@ -56,15 +56,17 @@ draft: false
 -->
 
 <!-- Direct link to LinkedIn page -->
-<div style="border:1px black">
-    <iframe src="../docs/linkedin.html" scrolling="no" style="width:300px; height:400px;" frameborder="none"></iframe>
-</div>
+
+<iframe src="../docs/linkedin.html" scrolling="no" style="width:400px; height:350px;" frameborder="none"></iframe>
 
 ---
 
 ## Other References
 
 <!-- UTS reference on Facebook -->
+
+UTS has done some advertising for the [MDSI](https://www.uts.edu.au/future-students/find-a-course/master-data-science-and-innovation) course, and I have been lucky enough to be included.
+
 <iframe src="../docs/facebook.html" scrolling="no" frameborder="none" style="width:500px;height:750px"></iframe>
 
 ---

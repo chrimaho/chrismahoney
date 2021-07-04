@@ -3,4 +3,4 @@ Title: Apps
 # Subtitle: This
 ---
 
-Detail about my apps.
+All of the Apps that I have written. All in one place.
