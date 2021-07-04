@@ -385,8 +385,10 @@ footer .theme-by {
 }
 .post-preview .post-meta a,
 .post-heading .post-meta a,
+.post-preview .post-entry a,
+.post-heading .post-entry a,
 .page-meta a {
-  color: #404040;
+  color: #008AFF;
   text-decoration: none;
 }
 .post-preview .post-entry {
