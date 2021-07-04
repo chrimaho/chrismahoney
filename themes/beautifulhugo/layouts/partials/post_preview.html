@@ -1,3 +1,26 @@
+<style>
+    .post-preview .post-meta a,
+    .post-heading .post-meta a,
+    .post-preview .post-entry a,
+    .post-heading .post-entry a,
+    .page-meta a {
+        color: #008AFF;
+        text-decoration: none;
+    }
+    .post-preview .post-meta a:hover,
+    .post-heading .post-meta a:hover,
+    .post-preview .post-entry a:hover,
+    .post-heading .post-entry a:hover,
+    .post-preview a:hover .post-title,
+    .page-meta a:hover {
+        color: #0085a1;
+        text-decoration: none;
+        text-decoration: underline;
+    }
+    .post-preview .post-entry .post-read-more {
+        color: #404040
+    }
+</style>
 <article class="post-preview">
     <a href="{{ .Permalink }}">
         <h2 class="post-title">{{ .Title }}</h2>
