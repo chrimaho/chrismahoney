@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: fontawsomeenhancv;
-    src: url(/60512509639b9d5df7f8fc5bfdef3c56.woff) format("woff");
+    src: url(/css/60512509639b9d5df7f8fc5bfdef3c56.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -1587,21 +1587,21 @@
     font-family: Inter UI;
     font-style: normal;
     font-weight: 400;
-    src: url(/3ca46ee35e2e0a102cb63a64629ff935.woff) format("woff")
+    src: url(/css/3ca46ee35e2e0a102cb63a64629ff935.woff) format("woff")
 }
 
 @font-face {
     font-family: Inter UI;
     font-style: normal;
     font-weight: 500;
-    src: url(/86c6d121f1d396c123e9f2b0b18040a0.woff) format("woff")
+    src: url(/css/86c6d121f1d396c123e9f2b0b18040a0.woff) format("woff")
 }
 
 @font-face {
     font-family: Inter UI;
     font-style: normal;
     font-weight: 600;
-    src: url(/0a1242bedd6453e33ea8bfb1a7fb2af4.woff) format("woff")
+    src: url(/css/0a1242bedd6453e33ea8bfb1a7fb2af4.woff) format("woff")
 }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
