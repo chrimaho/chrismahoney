@@ -4,7 +4,7 @@ date: 2021-01-18
 draft: false
 ---
 
-For a PDF version: {{< link text="Click Here" path="docs/20210120 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
+For a PDF version: {{< link text="Click Here" path="docs/20210710 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
 
 *(Best viewed on a computer)*
 
@@ -38,4 +38,5 @@ Steps to achieve:
 
 {{< enhancv >}}
 
-Compiled with thanks to [EnhanCV.com](https://enhancv.com/)
+<br>Resume source: [Chris Mahoney](https://app.enhancv.com/share/e2370d80)
+<br>Compiled with thanks to [EnhanCV.com](https://enhancv.com/)
