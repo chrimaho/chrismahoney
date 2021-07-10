@@ -10,12 +10,12 @@ draft: false
         border:none; 
         width:100vw; 
         position:relative;
-        left: -15%;
-        right: -15%;
+        left: -25%;
+        right: -25%;
     }
     .career-box {
         height:auto;
-        width:1020px;
+        width:1220px;
         height:620px;
     }
     .border-box {
