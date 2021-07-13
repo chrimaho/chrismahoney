@@ -12,13 +12,13 @@
 {{ end }}
 {{- "" -}}
 
-<!-- Declare variable height -->
+<!-- Declare variable style -->
 {{ if eq (.Scratch.Get "type") "badge" }}
-    {{- .Scratch.Set "height" "height: 20px;" -}}
+    {{- .Scratch.Set "style" "height: 20px; margin-left:2px; margin-right:2px" -}}
 {{ else if eq (.Scratch.Get "type") "icon" }}
-    {{- .Scratch.Set "height" "height: 60px;" -}}
+    {{- .Scratch.Set "style" "height: 60px; margin-left:10px; margin-right:10px" -}}
 {{ else }}
-    {{- .Scratch.Set "height" "height: 60px; margin-left:10px; margin-right:10px" -}}
+    {{- .Scratch.Set "style" "height: 60px; margin-left:10px; margin-right:10px" -}}
 {{ end }}
 
 <!-- Set style -->
@@ -33,6 +33,6 @@
 </style>
 
 <!-- Set the object -->
-<a class="link-container" href={{ (.Scratch.Get "linkurl") | safeURL }} title={{ (.Scratch.Get "title") }}>
-    <img class="badge-container" src={{ (.Scratch.Get "iconurl") | safeURL }} alt={{ (.Scratch.Get "title") }} style={{ (.Scratch.Get "height") | safeCSS }}>
+<a class="link-container" href={{ (.Scratch.Get "linkurl") | safeURL }} target=_blank rel="noopener" title={{ (.Scratch.Get "title") }}>
+    <img class="badge-container" src={{ (.Scratch.Get "iconurl") | safeURL }} alt={{ (.Scratch.Get "title") }} style={{ (.Scratch.Get "style") | safeCSS }}>
 </a>
