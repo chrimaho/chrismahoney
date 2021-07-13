@@ -1,1 +1,1 @@
-hugo server --buildDrafts --buldFuture
+hugo server --buildDrafts --buildFuture
