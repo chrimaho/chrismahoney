@@ -37,6 +37,10 @@ Conversely, I believe that my mental models also limit my perceptions of the oth
 
 -->
 
+**LinkedIn:**
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6823710444457390080" height="447" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 **Facebook:**
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FbttrHumans%2Fposts%2F1175044499675247&show_text=true&width=500" width="500" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
