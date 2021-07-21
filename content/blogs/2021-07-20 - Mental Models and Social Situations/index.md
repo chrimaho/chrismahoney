@@ -27,7 +27,7 @@ Conversely, I believe that my mental models also limit my perceptions of the oth
 <br>
 <hr>
 
-### Also Published Via
+### Also Promoted Via
 
 <!--
 
