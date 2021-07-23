@@ -16,7 +16,7 @@ draft: false
     .career-box {
         height:auto;
         width:1220px;
-        height:620px;
+        height:670px;
     }
     .border-box {
         border:1px black;
