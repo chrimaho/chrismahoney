@@ -48,3 +48,7 @@ Conversely, I believe that my mental models also limit my perceptions of the oth
 **Twitter:**
 
 <blockquote class="twitter-tweet"><p lang="da" dir="ltr">Mental Models and Social Situations<a href="https://t.co/dtFwCp2r4f">https://t.co/dtFwCp2r4f</a></p>&mdash; Better Humans (@BttrHumans) <a href="https://twitter.com/BttrHumans/status/1417344061908914176?ref_src=twsrc%5Etfw">July 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**Quora:**
+
+https://better-humans.quora.com/Mental-Models-and-Social-Situations?share=cebc1072
