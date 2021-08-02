@@ -1,0 +1,136 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+
+    //--------------//
+	//--- Python ---//
+	//--------------//
+
+
+	"Head": {
+		"scope": "python",
+		"prefix": ["head","h0"],
+		"description": "File header",
+		"body": 
+			[ "#==============================================================================#"
+			, "#                                                                              #"
+			, "#    Title: ${1:Title}                                                              #"
+			, "#    Purpose: ${2:Purpose}                                                          #"
+			, "#    Notes: ${3:Notes}                                                              #"
+			, "#    Author: chrimaho                                                          #"
+			, "#    Created: ${4:Created}                                                          #"
+			, "#    References: ${5:References}                                                    #"
+			, "#    Sources: ${6:Sources}                                                          #"
+			, "#    Edited: ${7:Edited}                                                            #"
+			, "#                                                                              #"
+			, "#==============================================================================#"
+			, ""
+			, ""
+			, ""
+			]
+	},
+	
+
+	"Header 1": {
+		"scope": "python",
+		"prefix": "h1",
+		"description": "Section header.",
+		"body":
+			[ ""
+			, ""
+			, "#------------------------------------------------------------------------------#"
+			, "#                                                                              #"
+			, "#    ${1:Heading1}                                                               ####"
+			, "#                                                                              #"
+			, "#------------------------------------------------------------------------------#"
+			, ""
+			, ""
+			]
+	},
+	
+
+	"Heading 2": {
+		"scope": "python",
+		"prefix": "h2",
+		"description": "Topic header.",
+		"body": 
+			[ ""
+			, "#------------------------------------------------------------------------------#"
+			, "# ${1:Heading2}                                                                  ####"
+			, "#------------------------------------------------------------------------------#"
+			, ""
+			]
+	},
+	
+
+	"Heading 3": {
+		"scope": "python",
+		"prefix": "h3",
+		"description": "Item header.",
+		"body": 
+			[ ""
+			, "# ${1:Heading3} ----",
+			]
+	},
+	
+
+	"Python end-line comment": {
+		"scope": "python",
+		"prefix": ["#", "#<"],
+		"description": "Add a comment at the end of the line.",
+		"body": 
+			[ "#<--"
+			]
+	},
+
+
+	"Function": {
+		"scope": "python",
+		"prefix": ["fun","def"],
+		"description": "Insert new function.",
+		"body": 
+			[ "def ${1:function_name}(${2:param_1_name}:${3:param_1_type}=${4:param_1_default}, ${5:param_2_name}:${6:param_2_type}=${7:param_2_default}):"
+			, "    '''"
+			, "    # ${1:function_name}()"
+			, "    "
+			, "    ${8:Function summary}."
+			, "    "
+			, "    ### Args:"
+			, "        ${2:param_1_name}(`${3:param_1_type}`${9:, optional}): ${10:param_1_description}. Defaults to `${4:param_1_default}`."
+			, "        ${5:param_2_name}(`${6:param_2_type}`${11:, optional}): ${12:param_2_description}. Defaults to `${7:param_2_default}`."
+			, "    "
+			, "    ### Raises:"
+			, "        `AssertionError`: If any of the parameter types or attributes are incorrect."
+			, "    "
+			, "    ### Returns:"
+			, "        `${13:[return_type]}`: ${14:Return description}."
+			, "    '''"
+			, "    "
+			, "    # Assertions"
+			, "    assert isinstance(${2:param_1_name}, ${3:param_1_type})"
+			, "    assert isinstance(${5:param_2_name}, ${6:param_2_type})"
+			, "    "
+			, "    # Do Work"
+			, "    ${15:#Here}"
+			, "    "
+			, "    # Return"
+			, "    return None"
+			]
+	}
+
+}
