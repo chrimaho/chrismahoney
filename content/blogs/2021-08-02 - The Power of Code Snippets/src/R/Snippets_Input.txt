@@ -1,0 +1,74 @@
+snippet h0
+	#`r stringr::str_pad("=", 78, pad="=")`#
+	#`r stringr::str_pad(" ", 78, pad=" ")`#
+	#    Title      : ${1:Title}      `r stringr::str_pad(" ", 50, pad=" ")`#
+	#    Purpose    : ${2:Purpose}    `r stringr::str_pad(" ", 50, pad=" ")`#
+	#    Notes      : ${3:Notes}      `r stringr::str_pad(" ", 50, pad=" ")`#
+	#    Author     : chrimaho        `r stringr::str_pad(" ", 45, pad=" ")`#
+	#    Created    : `r format(Sys.time(), "%d/%b/%Y")` `r stringr::str_pad(" ", 49, pad=" ")`#
+	#    References : ${6:References} `r stringr::str_pad(" ", 50, pad=" ")`#
+	#    Sources    : ${7:Sources}    `r stringr::str_pad(" ", 50, pad=" ")`#
+	#    Edited     : `r format(Sys.time(), "%d/%b/%Y")` - Initial creation `r stringr::str_pad(" ", 30, pad=" ")`#
+	#`r stringr::str_pad(" ", 78, pad=" ")`#
+	#`r stringr::str_pad("=", 78, pad="=")`#
+
+
+snippet edit
+	#    Edited     : `r format(Sys.time(), "%d/%b/%Y")` - ${1:Comment} `r stringr::str_pad(" ", 39, pad=" ")`#
+
+
+snippet h1
+	#`r stringr::str_pad("-", 78, pad="-")`#
+	#`r stringr::str_pad(" ", 78, pad=" ")`#
+	#    ${1:Heading1} `r stringr::str_pad(" ", 62, pad=" ")`####
+	#`r stringr::str_pad(" ", 78, pad=" ")`#
+	#`r stringr::str_pad("-", 78, pad="-")`#
+	
+
+snippet h2
+	##`r stringr::str_pad("-", 77, pad="-")`#
+	## ${1:Heading2} `r stringr::str_pad(" ", 64, pad=" ")`####
+	##`r stringr::str_pad("-", 77, pad="-")`#
+	
+
+snippet h3
+	### ${1:Heading3} ----
+
+
+snippet func
+	${1:FunctionName} <- function(${2:Input1Name}=${3:Input1Default}, ${4:Input2Name}=${5:Input2Default}) {
+		#' @title ${6:Add function title}
+		#' @description ${7:Add function description}.
+		#' @note ${8:Add a note for the developer}.
+		#' @param ${2:Input1Name} `${9:Input1Type}`. ${10:What is Input1?}. Default value `${3:Input1Default}`.
+		#' @param ${4:Input2Name} `${11:Input2Type}`. ${12:What is input2?}. Default value `${5:Input2Default}`.
+		#' @return ${13:What is being returned?}.
+		#' @seealso 
+		#' @author chrimaho
+		#' @examples
+		#' # Works
+		#' ${1:FunctionName}(
+		#'     ${2:Input1Name}=${3:Input1Default},
+		#'     ${4:Input2Name}=${5:Input2Default}
+		#' )
+		#' 
+		#' # Fails
+		#' ${1:FunctionName}(
+		#'     ${2:Input1Name}=${3:Input1Default},
+		#'     ${4:Input2Name}=${5:Input2Default}
+		#' )
+		
+		# Packages
+		require(assertthat)
+		require(dplyr)
+		
+		# Validations
+		assert_that(${2:Input1Name} %>% is.${9:Input1Type}, msg="'${2:Input1Name}' must be type '${9:Input1Type}'.")
+		assert_that(${4:Input2Name} %>% is.${11:Input2Type}, msg="'${4:Input2Name}' must be type '${11:Input2Type}'.")
+		
+		# Do work
+		#${14:Do work}
+		
+		# Return
+		return(NULL)
+	}
