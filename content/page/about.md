@@ -195,7 +195,7 @@ Good reference sites for emoji's:
 {{< badge-container
     title="Visual Studio Code"
     linkurl="https://code.visualstudio.com"
-    iconurl="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" 
+    iconurl="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" 
 >}}
 {{< badge-container
     title="RStudio"
