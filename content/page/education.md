@@ -71,17 +71,17 @@ draft: false
 <div class="nice-border">
 
 <img src="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" style="height:160px;" align="left" />
+
 # Masters of Data Science & Innovation {#mdsi}
 
 | Dates |  GPA | URL| Certificate |
 |---|---|---|---|
-| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2021 | 6.87 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
-
-<b>Description</b>
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2021 | 6.91 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
 
 {{% show-more %}}
+**Description**<br>
 The UTS Master of Data Science and Innovation is a ground-breaking program of study. It’s the first transdisciplinary data science degree offered in Australia where creativity and innovation are integral components. The MDSI equips students with the skills and expertise they’ll need for a rewarding career in data science and analytics.
-
+<br><br>
 Taking a transdisciplinary approach, the course utilises a range of perspectives from diverse fields and integrates them with industry experiences, real-world projects and self-directed study, equipping graduates with an understanding of the potential of analytics to transform practice. The course is delivered in a range of modes, including face-to-face learning and contemporary online experiences in UTS's leading-edge facilities.
 {{% /show-more %}}
 
@@ -97,7 +97,7 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 | 36102 | 2020-Spr | iLab 1 | HD | [iLab1](https://handbook.uts.edu.au/2020/subjects/details/36102.html) |
 | 36114 | 2021-Feb | Advanced Data Science for Innovation | HD | [ADSI](https://handbook.uts.edu.au/subjects/details/36114.html) |
 | 94693 | 2021-Aut | Big Data Engineering | HD | [BDE](https://handbook.uts.edu.au/subjects/details/94693.html) |
-| 36105 | 2021-Spr | iLab 2 | - | [iLab2](https://handbook.uts.edu.au/subjects/details/36105.html) |
+| 36105 | 2021-Spr | iLab 2 | HD | [iLab2](https://handbook.uts.edu.au/subjects/details/36105.html) |
 {{% /details %}}
 
 </div>
@@ -107,13 +107,14 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 <div class="nice-border">
 
 <img src="https://www.greeningaustralia.org.au/wp-content/uploads/2020/06/Western-Sydney-University_Stacked-Logo-200x200-1.png" style="height:160px;" align="left" />
+
 # Bachelor of Applied Leadership and Critical Thinking {#balct}
 
 | Dates | GPA | URL| Certificate |
 |---|---|---|---|
 | <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2017 - 2019 | 6.0 / 7.0 | {{< link text="BALCT" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=3725" title="WSU Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" title="Certificate" newtab=true button=true >}} |
 
-<b>Awards & Activities</b>
+**Awards & Activities**
 
 1. Academic Engagement Award ({{< link text="2017" path="docs/20171117 - Academy Excellence Awards - Academic Engagement Award.pdf" title="Certificate" newtab=true button=false >}})
 2. Recipient of the Citizens Scholar Award ({{< link text="2017" path="docs/20180501 - Hardcopy Testamur and AHEGS for 17506511 - BALCT.pdf" title="Certificate" newtab=true button=false >}})
@@ -121,9 +122,8 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 4. Participant of the WYSE International Leadership Programme in Italy ({{< link text="2017" path="docs/20170817 - WYSE ILP - 03 Aug 2017.pdf" title="Certificate" newtab=true button=false >}})
 5. Member of the Golden Key International Honours Society ({{< link text="2017" path="docs/20171115 - Certificate - Golden Key International Honour Society.pdf" title="Certificate" newtab=true button=false >}})
 
-<b>Description</b>
-
 {{% show-more %}}
+**Description**<br>
 The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-alone degree, but is designed to be undertaken in combination with any bachelor degree. It focuses on ethical leadership, creativity, entrepreneurship and innovation, capacity to deal with complexities, relationship and critical thinking skills. The Academy's three pillars of academic rigour, professional and personal development and community engagement provide the perfect base upon which to offer this innovative degree. These characteristics and aptitudes are what the employer of tomorrow will be seeking in a graduate. Students enrolled in this degree will think from multiple perspectives, see and create opportunities, and bring creative, cooperative, empathetic and ethical leadership to his or her future role in the workplace – even if that role is, as yet, unimagined.
 {{% /show-more %}}
 
@@ -147,13 +147,14 @@ The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-
 <div class="nice-border">
 
 <img src="https://www.greeningaustralia.org.au/wp-content/uploads/2017/11/University-of-Western-Sydney-final.png" style="height:160px;" align="left" />
+
 # Bachelor of Business and Commerce: Advanced Business Leadership (Management) {#bbc-abl}
 
 | Dates | GPA | URL| Certificate |
 |---|---|---|---|
 | <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2012 - 2017 | 6.235 / 7.0 | {{< link text="BBC-ABL(MGMNT)" path="http://handbook.westernsydney.edu.au/hbook/course.aspx?course=2787" title="UWS Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20170411 - Hardcopy Testamur and AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" title="Certificate" newtab=true button=true >}} |
 
-<b>Awards & Activities</b>
+**Awards & Activities**
 
 1. Deans Medal for Outstanding Scholarship ({{< link text="2016" path="docs/20170712 - Deans Medal 2016 - Certificate.pdf" title="Certificate" newtab=true button=false >}})
 2. Deans Merit List ({{< link text="2013" path="docs/20140516 - Dean’s Merit List 2013 - Certificate.pdf" title="Certificate" newtab=true button=false >}}, {{< link text="2014" path="docs/20150518 - Dean’s Merit List 2014 - Certificate.pdf" title="Certificate" newtab=true button=false >}}, {{< link text="2015" path="docs/20160525 - Dean’s Merit List 2015 - Certificate.pdf" title="Certificate" newtab=true button=false >}})
@@ -162,7 +163,7 @@ The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-
 5. Participant at the University Scholars Leadership Symposium in Cambodia ({{< link text="2014" path="docs/20140807 - Certificate - 5th University Scholars Leadership Symposium.pdf" title="Certificate" newtab=true button=false >}})
 6. Research Assistant with the University's project for the Skills Shortage in Western Sydney ({{< link text="2015" path="docs/20151019 - Certificate - CMI Research Project.pdf" title="Certificate" newtab=true button=false >}})
 
-<b>Description</b>
+**Description**
 
 {{% show-more %}}
 The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a broadly based, multi-discipline undergraduate course offering flexibility and choice through a range of nine different Majors, each of which reflects a particular business discipline. The Major I have chosen is Management. The degree seeks to equip its students with a sound understanding of business issues, complemented by a high level of knowledge relevant to a specific business discipline. The Management discipline has a capstone unit called Contemporary Management Issues. This unit allowed me to graduate 'business ready', and has prepared me to deal with real world business issues and problems and generate real world business solutions. The intention of the course is to provide a foundation for the development of Australia’s future business leaders.
@@ -197,13 +198,14 @@ The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a
 <div class="nice-border">
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" style="height:160px; padding:15px;" align="left" />
+
 # Diploma of Management {#dip-man}
 
 | Dates | URL | Certificate |
 |---|---|---|
 | <i class="far fa-calendar-alt" style="padding-right: 10px"></i> Feb-Nov/2011 | {{< link text="DIP-MGMNT" path="https://training.gov.au/training/details/bsb51107" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20110906 - Qualification - Diploma of Management - Certificate & Units of Competencies.pdf" title="DIP" newtab=true button=true >}} |
 
-<b>Description</b>
+**Description**
 
 {{% show-more %}}
 This qualification reflects the role of individuals who are engaged to manage the work of others or to add value to or review management practices. Their role may be in any industry or organisational setting. Typically people in these roles will have considerable experience in their respective industries or vocational areas and combine an informed perspective of specific work requirements with their managerial approaches. The qualification requires a sound theoretical knowledge base and managerial competencies to plan, carry out and evaluate own work or the work of a team.
@@ -228,13 +230,14 @@ This qualification reflects the role of individuals who are engaged to manage th
 <div class="nice-border">
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMRm99KHU5nkIAMTOTUOEZ14VYuMFXM8y_Hw&usqp=CAU" style="height:160px; padding:15px;" align="left" />
+
 # Certificate IV in Training and Assessment {#cert-iv-tae}
 
 | Dates | URL| Certificate |
 |---|---|---|
 | <i class="far fa-calendar-alt" style="padding-right: 10px"></i> Feb-Nov/2011 | {{< link text="CIV-TAE" path="https://training.gov.au/training/details/tae40110" title="training.gov website" newtab=true button=false >}} | {{< link text="Open" path="docs/20111221 - Qualification - Cert IV Training and Assessment - Certificate and Units of Competencies.pdf" title="TAE Cert" newtab=true button=true >}} |
 
-<b>Description</b>
+**Description**
 
 {{% show-more %}}
 This qualification reflects the roles of individuals delivering training and assessment services in the vocational education and training (VET) sector. Achievement of this qualification or an equivalent by trainers and assessors is a requirement of the Australian Quality Training Framework Essential Standards for Registration (Standard 1 as outlined in Appendix 2 of the Users' Guide to the Essential Standards for Registration). This qualification, or the skill sets derived from units of competency within it, is also suitable preparation for those engaged in the delivery of training and assessment of competence in a workplace context, as a component of a structured VET program.
@@ -263,27 +266,27 @@ This qualification reflects the roles of individuals delivering training and ass
 
 # Additional Qualifications
 
-1. <b>Lean Six Sigma: Continuous Improvement</b>
+1. **Lean Six Sigma: Continuous Improvement**
 <br>Lean Six Sigma is a method of improving business performance that relies on a collaborative team effort to improve operational efficiency by systematically removing waste and reducing variation.
 <br>- *Green Belt*: {{< link text="2017" path="docs/20171207 - Certificate - CI Green Belt.pdf" title="Green Belt" newtab=true button=false >}}
 <br>- *Yellow Belt*: {{< link text="2016" path="/docs/20160701 - Certificate - CI Yellow Belt.pdf" title="Yellow Belt" newtab=true button=false >}}
 
-1. <b>Paul Harris Fellow</b>
+1. **Paul Harris Fellow**
 <br>For significant assistance given for the furtherance of understanding and friendly relations among peoples of the world.
 <br>- *Awarded*: {{< link text="2018" path="docs/20180427 - Paul Harris Fellow.pdf" title="Paul Harris Fellow" newtab=true button=false >}}
 <br>- *1st Sapphire*: 2020
 
-1. <b>Rotary Youth Leadership Awards</b> ({{< link text="RYLA" path="https://rotarydistrict9685.org.au/sitepage/ryla" title="RYLA Website" newtab=true button=false >}})
+1. **Rotary Youth Leadership Awards** ({{< link text="RYLA" path="https://rotarydistrict9685.org.au/sitepage/ryla" title="RYLA Website" newtab=true button=false >}})
 <br>RYLA is a transformational 7-day leadership program targeted at young Australians aged between 19 and 27, and is delivered by Rotary International. As a Facilitator on this program, I helped to run the program, and to challenge and enrich the experience of our participants.
-<br>- *Facilitator*: 2016, 2019, 2020
+<br>- *Facilitator*: 2016, 2019, 2020, 2022
 <br>- *Participant*: 2015
 
-1. <b>Rotary Youth Program of Enrichment</b> ({{< link text="RYPEN" path="https://rotarydistrict9685.org.au/page/rypen" title="RYPEN Website" newtab=true button=false >}})
+1. **Rotary Youth Program of Enrichment** ({{< link text="RYPEN" path="https://rotarydistrict9685.org.au/page/rypen" title="RYPEN Website" newtab=true button=false >}})
 <br>RYPEN is an intensive residential weekend, designed for young people aged approximately 14 to 16. As a Facilitator/Mentor, I helped to deliver the program, and to motivate and inspire our participants.
 <br>- *Facilitator*: 2015-2019 (Summer)
 <br>- *Mentor*: 2015-2019 (Winter)
 
-1. <b>Duke of Edinburgh's Award</b>
+1. **Duke of Edinburgh's Award**
 <br>The Award is a leading structured (non-formal education) youth development program, empowering all young Australians aged 14-24 to explore their full potential and find their purpose, passion and place in the world, regardless of their location or circumstance.
 <br>- *Gold*: {{< link text="2009" path="docs/20091212 - Certificate - Duke of Edinburgh Gold.pdf" title="Gold DEA" newtab=true >}}
 <br>- *Silver*: {{< link text="2007" path="docs/20071008 - Certificate - Duke of Edinburgh Silver.pdf" title="Silver DEA" newtab=true >}}
