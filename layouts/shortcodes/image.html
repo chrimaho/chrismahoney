@@ -1,29 +1,39 @@
+<!-- Parameters -->
 {{ if .IsNamedParams }}
     {{- .Scratch.Set "path" (.Get "path") -}}
     {{- .Scratch.Set "width" (.Get "width") -}}
     {{- .Scratch.Set "height" (.Get "height") -}}
     {{- .Scratch.Set "style" (.Get "style") -}}
     {{- .Scratch.Set "alt" (.Get "alt") -}}
+    {{- .Scratch.Set "link" (.Get "link") -}}
 {{ else }}
     {{ if .Get 0 }}{{- .Scratch.Set "path" (.Get 0) -}}{{ end }}
     {{ if .Get 1 }}{{- .Scratch.Set "width" (.Get 1) -}}{{ end }}
     {{ if .Get 2 }}{{- .Scratch.Set "height" (.Get 2) -}}{{ end }}
     {{ if .Get 3 }}{{- .Scratch.Set "style" (.Get 3) -}}{{ end }}
     {{ if .Get 4 }}{{- .Scratch.Set "alt" (.Get 4) -}}{{ end }}
+    {{ if .Get 5 }}{{- .Scratch.Set "link" (.Get 5) -}}{{ end }}
 {{ end }}
-{{- "" -}}
+
+<!-- Handle relative paths -->
 {{ if or (not (hasPrefix (.Scratch.Get "path") "http")) (not (hasPrefix (.Scratch.Get "path") "mailto"))}}
     {{- if hasPrefix (.Scratch.Get "path") "/" -}}
     {{- .Scratch.Set "path" (slicestr (.Scratch.Get "path") 1) -}}
     {{- end -}}
     {{- .Scratch.Set "path" (.Scratch.Get "path" | absLangURL) -}}
 {{ end }}
-{{- "" -}}
+
+<!-- Content block -->
+{{ if .Scratch.Get "link" }}
+<a href="{{ (.Scratch.Get "link") | safeURL }}">
+{{ end }}
 <img
 src={{ (.Scratch.Get "path") | safeURL }}
 {{ with (.Scratch.Get "alt") }}alt="{{ . }}"{{ end }}
 {{ with (.Scratch.Get "width") }}width="{{ . }}"{{ end }}
 {{ with (.Scratch.Get "height") }}height="{{ . }}"{{ end }}
-{{ with (.Scratch.Get "style") }}style="{{ . }}"{{ end }}
+{{ with (.Scratch.Get "style") | safeCSS }}style="{{ . }}"{{ end }}
 />
-{{- "" -}}
+{{ if .Scratch.Get "link" }}
+</a>
+{{ end }}
