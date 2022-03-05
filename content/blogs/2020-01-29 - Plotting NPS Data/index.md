@@ -4,6 +4,8 @@ date: 2020-01-29
 draft: false
 locationName: Analytics Vidhya
 locationURL: https://medium.com/analytics-vidhya/plottingnps-2958b642a51f?sk=382557ae6dd6227d004eb42a374fbb8f
+aliases:
+    - /b/plotting-nps
 ---
 
 The Net Promoter Score (NPS) is a trusted metric used by countless business to decide whether customers are Detractors or Promoters of the business. There is extensive resources online to justify the use of this metric, including on sites such as [qualtrics.com](https://www.qualtrics.com/experience-management/customer/net-promoter-score/), [wikipedia.org](https://en.wikipedia.org/wiki/Net_Promoter) and [netpromoter.com](https://www.netpromoter.com/know/).
