@@ -4,7 +4,7 @@ date: 2021-01-18
 draft: false
 ---
 
-For a PDF version: {{< link text="Click Here" path="docs/20210710 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
+For a PDF version: {{< link text="Click Here" path="docs/20220313 - Chris Mahoney Resume.pdf" newtab=true button=true >}}
 
 *(Best viewed on a computer)*
 

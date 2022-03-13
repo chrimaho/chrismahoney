@@ -4,6 +4,8 @@ date: 2021-08-02
 draft: false
 locationName: CodeX
 locationURL: https://medium.com/codex/the-power-of-code-snippets-9b0359e7ae2d?sk=2685fd0ab947f7905483906767f622cd
+aliases:
+    - /b/code-snippets
 ---
 
 Modern day programmers write a lot of code. That’s part of the job. But one of the main principles of writing good code is the DRY principle: Don’t Repeat Yourself (see [The DRY Principle: R Functions](https://www.earthdatascience.org/courses/earth-analytics/automate-science-workflows/write-efficient-code-for-science-r/#dont-repeat-yourself---dry) or [The DRY Principle: Python Functions](https://scientificallysound.org/2018/07/19/python-functions/) or [Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) or any number of other online sources). In essence, this principle effectively states that if you are going to write the same code twice, then don’t; instead, write the code in a function, then call the function twice.

@@ -91,17 +91,38 @@ So, therefore, the three I am tossing up are:
 {{< table-cellbreak >}}
 
 <span id="tudor-style"></span>
-![](https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m12703-0002.png)
+
+<p style="text-align:center">
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m12703-0002.png"
+   style="width:140px;display:inline;"
+>}}
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m12703-0006.png"
+   style="width:140px;display:inline;"
+>}}
+
+</p>
 
 {{< table-cellbreak >}}
 
 <span id="tudor-glamour"></span>
-![](https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m56003-0112.png)
 
-{{< table-cellbreak >}}
+<p style="text-align:center">
 
-<span id="tudor-blackbay"></span>
-![](https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m79733n-0008.png)
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m56003-0112.png"
+   style="width:140px;display:inline;"
+>}}
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m56003-0008.png"
+   style="width:140px;display:inline;"
+>}}
+
+<p>
 
 {{< table-rowbreak >}}
 
@@ -115,10 +136,6 @@ So, therefore, the three I am tossing up are:
 
 **Glamour**
 
-{{< table-cellbreak >}}
-
-**Black Bay**
-
 {{< table-rowbreak >}}
 
 **Face Width:**
@@ -131,10 +148,6 @@ So, therefore, the three I am tossing up are:
 
 39mm
 
-{{< table-cellbreak >}}
-
-41mm
-
 {{< table-rowbreak >}}
 
 **Link:**
@@ -146,10 +159,6 @@ So, therefore, the three I am tossing up are:
 {{< table-cellbreak >}}
 
 [link](https://www.tudorwatch.com/en/watches/glamour-date-day/m56003-0112)
-
-{{< table-cellbreak >}}
-
-[link](https://www.tudorwatch.com/en/watches/black-bay-date/m79733n-0008)
 
 {{< table-rowbreak >}}
 
@@ -195,14 +204,6 @@ $6,150
 $6,150
 {{< table-end >}}
 
-{{< table-cellbreak >}}
-
-{{< table-begin >}}
-[black face](https://www.tudorwatch.com/en/watches/black-bay-date/m79733n-0008)
-{{< table-cellbreak >}}
-$7360
-{{< table-end >}}
-
 {{< table-rowbreak >}}
 
 **Pros:**
@@ -214,10 +215,6 @@ $7360
 {{< table-cellbreak >}}
 
 - Love the face, besel & band. All looks amazing.
-
-{{< table-cellbreak >}}
-
-- Love love love the thick gold links in the band!
 
 {{< table-rowbreak >}}
 
@@ -231,12 +228,147 @@ $7360
 
 - The face is just a little twoo small. If it were in 40/41mm, I'd consider buying it.
 
+{{< table-end >}}
+
+<br>
+
+{{< table-begin >}}
+
+**Image:**
+
+{{< table-cellbreak >}}
+
+<span id="tudor-1926"></span>
+
+<p style="text-align:center">
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m91351-0009.png"
+   style="width:150px;display:inline"
+>}}
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m91351-0004.png"
+   style="width:150px;display:inline"
+>}}
+
+</p>
+
+{{< table-cellbreak >}}
+
+<span id="tudor-blackbay"></span>
+
+<p style="text-align:center">
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m79733n-0004.png?w=900&h=1200&version=1.8.0&sc_lang=en&imwidth=640"
+   style="width:130px;display:inline"
+>}}
+
+{{< image
+   path="https://www.tudorwatch.com/-/media/model-assets/upright/l/tudor-m79733n-0008.png"
+   style="width:130px;display:inline"
+>}}
+
+</p>
+
+{{< table-rowbreak >}}
+
+**Model:**
+
+{{< table-cellbreak >}}
+
+**1926**
+
+{{< table-cellbreak >}}
+
+**Black Bay**
+
+{{< table-rowbreak >}}
+
+**Face Width:**
+
+{{< table-cellbreak >}}
+
+28mm
+
+{{< table-cellbreak >}}
+
+41mm
+
+{{< table-rowbreak >}}
+
+**Link:**
+
+{{< table-cellbreak >}}
+
+[link](https://www.tudorwatch.com/en/watches/1926/m91351-0009)
+
+{{< table-cellbreak >}}
+
+[link](https://www.tudorwatch.com/en/watches/black-bay-date/m79733n-0008)
+
+{{< table-rowbreak >}}
+
+**Configs:**
+
+{{< table-cellbreak >}}
+
+{{< table-begin >}}
+[white face](https://www.tudorwatch.com/en/watches/1926/m91351-0009)
+{{< table-cellbreak >}}
+$4,010
+{{< table-rowbreak >}}
+[black face](https://www.tudorwatch.com/en/watches/1926/m91351-0003)
+{{< table-cellbreak >}}
+$4,010
+{{< table-rowbreak >}}
+[white face & diamonds](https://www.tudorwatch.com/en/watches/1926/m91351-0011)
+{{< table-cellbreak >}}
+$4,720
+{{< table-rowbreak >}}
+[black face & diamonds](https://www.tudorwatch.com/en/watches/1926/m91351-0004)
+{{< table-cellbreak >}}
+$4,720
+{{< table-end >}}
+
+{{< table-cellbreak >}}
+
+{{< table-begin >}}
+[gold face](https://www.tudorwatch.com/en/watches/black-bay-date/m79733n-0004)
+{{< table-cellbreak >}}
+$7,360
+{{< table-rowbreak >}}
+[black face](https://www.tudorwatch.com/en/watches/black-bay-date/m79733n-0008)
+{{< table-cellbreak >}}
+$7,360
+{{< table-end >}}
+
+{{< table-rowbreak >}}
+
+**Pros:**
+
+{{< table-cellbreak >}}
+
+- Love the numbers and the look of the face.
+
+{{< table-cellbreak >}}
+
+- Width is too small, and it looks a little... feminine
+
+{{< table-rowbreak >}}
+
+**Cons:**
+
+{{< table-cellbreak >}}
+
+- Don't like the chunky seconds numbers around the outside.
+
 {{< table-cellbreak >}}
 
 - Don't like the chunky seconds numbers around the outside.
 
 {{< table-end >}}
-
 
 <br><br>
 

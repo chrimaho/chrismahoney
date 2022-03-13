@@ -4,6 +4,8 @@ date: 2020-10-13
 draft: false
 locationName: StartItUp
 locationURL: https://medium.com/swlh/exploring-undernourishment-part-1-introduction-and-overview-ff024fa7dd32
+aliases:
+    - /b/exploring-undernourishment
 ---
 
 Our World today has many issues, and the Prevalence of Undernourishment is just one of them. Over the past twenty years, the United Nations, through the Food and Agriculture Organisation ([FAO](http://www.fao.org/home/en/)), has collected data on many countries, and have helped to influence and improve their Undernourishment overall.
