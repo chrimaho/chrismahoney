@@ -183,7 +183,7 @@ Good reference sites for emoji's:
     {{< badge-container
         title="PL-SQL"
         linkurl="https://oracle.com/database"
-        iconurl="https://www.tenfold.com/wp-content/uploads/2017/05/icon-oracle-sales-cloud.png" 
+        iconurl="https://avatars.githubusercontent.com/u/4430336?v=4" 
     >}}
     {{< badge-container
         title="PowerQuery"
