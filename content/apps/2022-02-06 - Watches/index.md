@@ -3,6 +3,8 @@ title: Watches
 date: 2022-02-05
 draft: false
 hidden: true
+aliases:
+    - /a/watches
 ---
 
 <style>

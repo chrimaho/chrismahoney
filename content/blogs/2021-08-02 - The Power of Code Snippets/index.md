@@ -24,7 +24,7 @@ When approaching this from a Data Science perspective, I will focus on the two m
     image="https://miro.medium.com/max/2880/1*d7_9UH8XjbRKWtK9S6VSDg.jpeg"
     publicationlink="https://medium.com/codex"
     publicationname="CodeX"
-    publicationicon="https://media-exp1.licdn.com/dms/image/C560BAQEpfFwrTTnLmw/company-logo_200_200/0/1609904522609?e=1635984000&v=beta&t=4UXilq7vIZ21rHcv9m_pQUY9NvuEqnW_ZV1Gxdiyg0s"
+    publicationicon="https://miro.medium.com/fit/c/64/64/1*VqH0bOrfjeUkznphIC7KBg.png"
 >}}
 
 <br>
