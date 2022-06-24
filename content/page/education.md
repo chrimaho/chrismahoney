@@ -76,13 +76,16 @@ draft: false
 
 | Dates |  GPA | URL| Certificate |
 |---|---|---|---|
-| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2021 | 6.91 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2022 | 6.91 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20220624 - Hardcopy Testamur and AHEGS for 13357658 - MDSI.pdf" title="Certificate" newtab=true button=true >}} |
 
 {{% show-more %}}
 **Description**<br>
 The UTS Master of Data Science and Innovation is a ground-breaking program of study. It’s the first transdisciplinary data science degree offered in Australia where creativity and innovation are integral components. The MDSI equips students with the skills and expertise they’ll need for a rewarding career in data science and analytics.
-<br><br>
+<br>
 Taking a transdisciplinary approach, the course utilises a range of perspectives from diverse fields and integrates them with industry experiences, real-world projects and self-directed study, equipping graduates with an understanding of the potential of analytics to transform practice. The course is delivered in a range of modes, including face-to-face learning and contemporary online experiences in UTS's leading-edge facilities.
+<br>
+**Digital Qualifications**<br>
+Digital copies the qualifications: [Testamur](https://www.myequals.net/sharelink/91eb68db-a452-4257-93ee-e84d5e95e2f4/f10cfbda-e212-4251-a8f9-79588576c273), [AHEGS](https://www.myequals.net/sharelink/f8fed9d6-ecdd-44f6-b993-b6135d38e9b1/e660ce36-6bf7-4829-84ad-10abd135a327), [Transcript](https://www.myequals.net/sharelink/3a2bdcfa-4e20-487e-869a-9aa6b952c6fc/1629b5a0-f543-4edd-b07c-4e4d4ff915a8).
 {{% /show-more %}}
 
 {{% details "Subjects" %}}
@@ -278,13 +281,17 @@ This qualification reflects the roles of individuals delivering training and ass
 
 1. **Rotary Youth Leadership Awards** ({{< link text="RYLA" path="https://rotarydistrict9685.org.au/sitepage/ryla" title="RYLA Website" newtab=true button=false >}})
 <br>RYLA is a transformational 7-day leadership program targeted at young Australians aged between 19 and 27, and is delivered by Rotary International. As a Facilitator on this program, I helped to run the program, and to challenge and enrich the experience of our participants.
-<br>- *Facilitator*: 2016, 2019, 2020, 2022
+<br>- *Facilitator*: 2016, 2019-2023
 <br>- *Participant*: 2015
 
 1. **Rotary Youth Program of Enrichment** ({{< link text="RYPEN" path="https://rotarydistrict9685.org.au/page/rypen" title="RYPEN Website" newtab=true button=false >}})
 <br>RYPEN is an intensive residential weekend, designed for young people aged approximately 14 to 16. As a Facilitator/Mentor, I helped to deliver the program, and to motivate and inspire our participants.
 <br>- *Facilitator*: 2015-2019 (Summer)
-<br>- *Mentor*: 2015-2019 (Winter)
+<br>- *Mentor*: 2015-2023 (Winter)
+
+1. **Model United Nations Assembly** ({{< link text="MUNA" path="http://www.muna.com.au/western-sydney/" title="MUNA Website" newtab=true button=false >}})
+<br>MUNA is a project organised and sponsored by Rotary Clubs to build international understanding and promote goodwill for world peace. It invites high school students to form school teams and participate in debates, along the principles adopted at the United Nations Assembly, pertinent to world political and social issues. Each team represents a particular country.
+<br>- *Adjudicator* & *Coach*: 2017 to Current
 
 1. **Duke of Edinburgh's Award**
 <br>The Award is a leading structured (non-formal education) youth development program, empowering all young Australians aged 14-24 to explore their full potential and find their purpose, passion and place in the world, regardless of their location or circumstance.
