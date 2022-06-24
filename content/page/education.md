@@ -76,7 +76,7 @@ draft: false
 
 | Dates |  GPA | URL| Certificate |
 |---|---|---|---|
-| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2021 | 6.91 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | Soon... |
+| <i class="far fa-calendar-alt" style="padding-right: 10px"></i> 2019 - 2022 | 6.91 / 7.0 | {{< link text="MDSI" path="https://handbook.uts.edu.au/courses/c04372.html" title="UTS Website" newtab=true button=false >}} | {{< link text="Open" path="docs/20220624 - Hardcopy Testamur and AHEGS for 13357658 - MDSI.pdf" title="Certificate" newtab=true button=true >}} |
 
 {{% show-more %}}
 **Description**<br>
