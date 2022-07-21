@@ -61,7 +61,7 @@ Good reference sites for emoji's:
 
 - Fun fact: I have a Glider Pilot's License
 - Working for [DB Schenker](https://www.dbschenker.com/au-en/about/innovation-digitalization)
-- Studying at [UTS](https://mdsi.uts.edu.au)
+- Studyied at [WSU](https://www.westernsydney.edu.au/) and [UTS](https://mdsi.uts.edu.au)
 - Looking for more Open Source projects
 - Keen to work with like-minded people
 
