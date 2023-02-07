@@ -2,6 +2,8 @@
 title: Formal Education
 date: 2021-01-15
 draft: false
+aliases:
+    - /education
 ---
 
 <style>

@@ -2,6 +2,8 @@
 title: Professional Experience
 date: 2021-01-15
 draft: false
+aliases:
+    - /professional
 ---
 
 <style>

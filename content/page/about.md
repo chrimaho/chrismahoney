@@ -3,6 +3,8 @@ title: About Me
 subtitle: I try to understand things clearly and explain them well
 date: 2020-01-15
 draft: false
+aliases:
+    - /about
 ---
 
 <!-- 

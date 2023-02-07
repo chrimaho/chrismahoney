@@ -2,6 +2,8 @@
 title: Résumé
 date: 2021-01-18
 draft: false
+aliases:
+    - /resume
 ---
 
 For a PDF version: {{< link text="Click Here" path="docs/20220721 - ChrisMahoneyResume.pdf" newtab=true button=true >}}
