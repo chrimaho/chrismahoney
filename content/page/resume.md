@@ -6,7 +6,7 @@ aliases:
     - /resume
 ---
 
-For a PDF version: {{< link text="Click Here" path="docs/20220721 - ChrisMahoneyResume.pdf" newtab=true button=true >}}
+For a PDF version: {{< link text="Click Here" path="docs/20230321 - ChrisMahoneyResume.pdf" newtab=true button=true >}}
 
 *(Best viewed on a computer)*
 
