@@ -1,5 +1,5 @@
   {{ if eq .Type "page" }}
-    {{ if ne .IsHome }}
+    {{ if not .IsHome }}
       {{ if .Params.includePageLastModified }}
         {{ partial "page_meta.html" . }}
       {{ end }}
