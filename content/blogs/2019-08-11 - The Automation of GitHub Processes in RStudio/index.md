@@ -4,7 +4,9 @@ date: 2019-04-11
 draft: false
 locationName: Medium.com
 locationURL: https://chrimaho.medium.com/githubautomation-ce1b7616fa8c?sk=f24fb5605f187cbd450de13196531f29
-
+aliases:
+    - /b/github-automation
+    - /b/github-automation-in-rstudio
 ---
 
 GitHub is a vital tool for any Data Scientist, and is incredibly useful when properly integrated in the RStudio Integrated Development Environment (IDE). The default functionality allows for one to manage Code Sets seamlessly with Git through very user-friendly `Stage`, `Commit`, `Push`, `Pull`, and `History` buttons. This process is intentionally designed this way to ensure that the user properly follows the Git process to ensure that the appropriate Change Management, Code Merging, and Version Control practices are implemented.

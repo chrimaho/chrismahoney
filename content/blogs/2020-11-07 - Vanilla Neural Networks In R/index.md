@@ -6,6 +6,7 @@ locationName: TowardsDataScience.com
 locationURL: https://towardsdatascience.com/vanilla-neural-networks-in-r-43b028f415?sk=f47b3d6f9f539e907d272966fa88bcb8
 aliases:
     - /b/vanilla-neural-networks
+    - /b/vanilla-neural-networks-in-r
 ---
 
 The purpose of this paper is to create a ‘*back to basics*’ approach to designing Deep Learning solutions. The intention is not to create the most predictive model, nor is it to use the latest and greatest techniques (such as [convolution](https://en.wikipedia.org/wiki/Convolutional_neural_network) or [recursion](https://en.wikipedia.org/wiki/Recurrent_neural_network)); but the intention is to create a *basic* neural network, from *scratch*, using *no* frameworks, and to *walk through* the methodology.

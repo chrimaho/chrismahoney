@@ -6,6 +6,7 @@ locationName: BetterHumans
 locationURL: https://betterhumans.pub/mental-models-80eb02b0dd70?sk=980e9d7e6bc5593d139ec4821a3751f3
 aliases:
     - /b/mental-models
+    - /b/mental-models-social-situations
 ---
 
 Our mental models are deeply engrained images of how we see the world and how we to react in different scenarios and situations ([McShane, Travaglione & Olekalns 2010, p. 91](https://betterhumans.pub/mental-models-80eb02b0dd70#40a4); [Senge 2006, p. 164](https://betterhumans.pub/mental-models-80eb02b0dd70#a42e)).
