@@ -88,7 +88,7 @@ Taking a transdisciplinary approach, the course utilises a range of perspectives
 <br>
 **Digital Qualifications**<br>
 Digital copies of qualifications: [Testamur](https://www.myequals.net/sharelink/91eb68db-a452-4257-93ee-e84d5e95e2f4/f10cfbda-e212-4251-a8f9-79588576c273), [AHEGS](https://www.myequals.net/sharelink/f8fed9d6-ecdd-44f6-b993-b6135d38e9b1/e660ce36-6bf7-4829-84ad-10abd135a327), [Transcript](https://www.myequals.net/sharelink/3a2bdcfa-4e20-487e-869a-9aa6b952c6fc/1629b5a0-f543-4edd-b07c-4e4d4ff915a8).<br>
-Hard copies of qualifications: {{< link text="Testamur" path="docs/20220624 - Hardcopy Testamur for 13357658 - MDSI.pdf" title="Testamur" newtab=true button=false >}}, {{< link text="AHEGS" path="docs/20220624 - Hardcopy AHEGS for 13357658 - MDSI.pdf" title="AHEGS" newtab=true button=false >}}
+Hard copies of qualifications: [Testamur](/docs/20220624%20-%20Hardcopy%20Testamur%20for%2013357658%20-%20MDSI.pdf), [AHEGS](/docs/20220624%20-%20Hardcopy%20AHEGS%20for%2013357658%20-%20MDSI.pdf).<br>
 {{% /show-more %}}
 
 {{% details "Subjects" %}}
@@ -132,8 +132,8 @@ Hard copies of qualifications: {{< link text="Testamur" path="docs/20220624 - Ha
 **Description**<br>
 The Bachelor of Applied Leadership and Critical Thinking (BALCT) is not a stand-alone degree, but is designed to be undertaken in combination with any bachelor degree. It focuses on ethical leadership, creativity, entrepreneurship and innovation, capacity to deal with complexities, relationship and critical thinking skills. The Academy's three pillars of academic rigour, professional and personal development and community engagement provide the perfect base upon which to offer this innovative degree. These characteristics and aptitudes are what the employer of tomorrow will be seeking in a graduate. Students enrolled in this degree will think from multiple perspectives, see and create opportunities, and bring creative, cooperative, empathetic and ethical leadership to his or her future role in the workplace – even if that role is, as yet, unimagined.
 <br>
-**Digital Qualifications**<br>
-Hard copies of qualifications: {{< link text="Testamur" path="docs/20180501 - Hardcopy Testamur for 17506511 - BALCT.pdf" title="Testamur" newtab=true button=false >}}, {{< link text="AHEGS" path="docs/20180501 - Hardcopy AHEGS for 17506511 - BALCT.pdf" title="AHEGS" newtab=true button=false >}}
+**Qualifications**<br>
+Hard copies of qualifications: [Testamur](/docs/20180501%20-%20Hardcopy%20Testamur%20for%2017506511%20-%20BALCT.pdf), [AHEGS](/docs/20180501%20-%20Hardcopy%20AHEGS%20for%2017506511%20-%20BALCT.pdf).
 {{% /show-more %}}
 
 {{% details "Subjects" %}}
@@ -178,7 +178,7 @@ Hard copies of qualifications: {{< link text="Testamur" path="docs/20180501 - Ha
 The Bachelor of Business and Commerce (Advanced Business Leadership) degree is a broadly based, multi-discipline undergraduate course offering flexibility and choice through a range of nine different Majors, each of which reflects a particular business discipline. The Major I have chosen is Management. The degree seeks to equip its students with a sound understanding of business issues, complemented by a high level of knowledge relevant to a specific business discipline. The Management discipline has a capstone unit called Contemporary Management Issues. This unit allowed me to graduate 'business ready', and has prepared me to deal with real world business issues and problems and generate real world business solutions. The intention of the course is to provide a foundation for the development of Australia’s future business leaders.
 <br>
 **Digital Qualifications**<br>
-Hard copies of qualifications: {{< link text="Testamur" path="docs/20170411 - Hardcopy Testamur for 17506511 - BBC(ABL)(MGMNT).pdf" title="Testamur" newtab=true button=false >}}, {{< link text="AHEGS" path="docs/20170411 - Hardcopy AHEGS for 17506511 - BBC(ABL)(MGMNT).pdf" title="AHEGS" newtab=true button=false >}}
+Hard copies of qualifications: [Testamur](/docs/20170411%20-%20Hardcopy%20Testamur%20for%2017506511%20-%20BBC(ABL)(MGMNT).pdf), [AHEGS](/docs/20170411%20-%20Hardcopy%20AHEGS%20for%2017506511%20-%20BBC(ABL)(MGMNT).pdf).
 {{% /show-more %}}
 
 {{% details "Subjects" %}}
