@@ -87,7 +87,7 @@ The UTS Master of Data Science and Innovation is a ground-breaking program of st
 Taking a transdisciplinary approach, the course utilises a range of perspectives from diverse fields and integrates them with industry experiences, real-world projects and self-directed study, equipping graduates with an understanding of the potential of analytics to transform practice. The course is delivered in a range of modes, including face-to-face learning and contemporary online experiences in UTS's leading-edge facilities.
 <br>
 **Digital Qualifications**<br>
-Digital copies of qualifications: [Testamur](https://www.myequals.net/sharelink/91eb68db-a452-4257-93ee-e84d5e95e2f4/f10cfbda-e212-4251-a8f9-79588576c273), [AHEGS](https://www.myequals.net/sharelink/f8fed9d6-ecdd-44f6-b993-b6135d38e9b1/e660ce36-6bf7-4829-84ad-10abd135a327), [Transcript](https://www.myequals.net/sharelink/3a2bdcfa-4e20-487e-869a-9aa6b952c6fc/1629b5a0-f543-4edd-b07c-4e4d4ff915a8).
+Digital copies of qualifications: [Testamur](https://www.myequals.net/sharelink/91eb68db-a452-4257-93ee-e84d5e95e2f4/f10cfbda-e212-4251-a8f9-79588576c273), [AHEGS](https://www.myequals.net/sharelink/f8fed9d6-ecdd-44f6-b993-b6135d38e9b1/e660ce36-6bf7-4829-84ad-10abd135a327), [Transcript](https://www.myequals.net/sharelink/3a2bdcfa-4e20-487e-869a-9aa6b952c6fc/1629b5a0-f543-4edd-b07c-4e4d4ff915a8).<br>
 Hard copies of qualifications: {{< link text="Testamur" path="docs/20220624 - Hardcopy Testamur for 13357658 - MDSI.pdf" title="Testamur" newtab=true button=false >}}, {{< link text="AHEGS" path="docs/20220624 - Hardcopy AHEGS for 13357658 - MDSI.pdf" title="AHEGS" newtab=true button=false >}}
 {{% /show-more %}}
 
