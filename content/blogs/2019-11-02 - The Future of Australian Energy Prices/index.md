@@ -4,6 +4,10 @@ date: 2019-11-02
 draft: false
 locationName: Medium.com
 locationURL: https://chrimaho.medium.com/ausenergyprices-737b9cbe5540?sk=8d0dd0bc3167c2ce59d9b389d5c443af
+aliases:
+    - /b/australian-energy
+    - /b/australian-energy-prices
+    - /b/future-australian-energy-prices
 ---
 
 In recent months, media outlets have notified the public about fluctuations in energy prices with headlines such as [*Australia’s High Electricity Prices the ‘New Normal’, Report Says*](https://www.theguardian.com/australia-news/2018/jul/01/australias-high-electricity-prices-the-new-normal-report-says) (Hutchens, 2018), and [*Higher Energy Prices are Here to Stay — Here’s What We Can Do About It*](http://theconversation.com/higher-energy-prices-are-here-to-stay-heres-what-we-can-do-about-it-99187) (Percival, 2018) and [*‘No Likelihood of Relief Ahead’: Future Power Prices Continue to Rise*](https://www.smh.com.au/business/the-economy/no-likelihood-of-relief-ahead-future-power-prices-continue-to-rise-20181030-p50cu1.html) (Latimer, 2018). These articles create a sense of concern due to the impact to Australian’s financial wellbeing. However, there is very little fact in these articles that are grounded in statistical evidence.

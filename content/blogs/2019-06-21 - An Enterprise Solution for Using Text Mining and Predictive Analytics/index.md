@@ -4,6 +4,9 @@ date: 2019-06-21
 draft: false
 locationName: Medium.com
 locationURL: https://chrimaho.medium.com/an-enterprise-solution-for-using-text-mining-and-predictive-analytics-79a3c522400f?sk=cc6ebf5df344fcd47f0a9d5a3ee121e6
+aliases:
+    - /b/text-mining
+    - /b/enterprise-solution-for-text-mining
 ---
 
 Within any large enterprise organisation, there is an IT department which works to service the rest of the company with any computer-related or technological enquiries. However, the process of requesting assistance from the IT department, by way of telephone enquiry or online ticket submission, can be somewhat convoluted, confusing, and even frustrating. One way to improve this is to have a search module, whereby the user can type a certain number of words, and the system will return a list of knowledge articles for the users’ consideration. This can be incredibly useful, and may even mean the user might not even need to submit an enquiry to the IT department. The details behind this program needs to be optimised for speed and accuracy, because ultimately the goal is to increase the user efficiency and usefulness of each employee within the organisation.

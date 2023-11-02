@@ -4,6 +4,9 @@ date: 2019-04-30
 draft: false
 locationName: LinkedIn.com
 locationURL: https://www.linkedin.com/pulse/rotary-youth-leadership-awards-reflectively-approach-chris-mahoney/?trackingId=GCJCsRWnS4yE8LmqEqHilQ%3D%3D
+aliases:
+    - /b/linkedin-ryla
+    - /b/linkedin-rotary-youth-leadership-awards
 ---
 
 RYLA is a week-long experiential leadership program, aimed at empowering the next generation of leaders to achieve great things. The program is designed around a reflectively experiential approach to leadership, employing the abstraction of 'ERLA' to assist the participants through their journey, which is an abbreviation for: Experience, Reflection, Learning, Action (ERLA). This concept is continually reinforced throughout the course of the week. It is also steeped in academia, particularly in its liken to David Kolb's work (1984), which conceptualises learning as a four-phase continuous cycle: Concrete Experience, Reflective Observation, Abstract Conceptualisation and Active Experimentation (Figure 1). This learning process, in other forms, has been referred to the 'Plan-Do-Check-Act' model, or the 'Experience-Reflection-Conceptualise-Test' model.
