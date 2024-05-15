@@ -61,8 +61,8 @@ Good reference sites for emoji's:
 - https://unicode.org/emoji/charts/full-emoji-list.html
 -->
 
-- Fun fact: I have a Glider Pilot's License
-- Working for [DB Schenker](https://www.dbschenker.com/au-en/about/innovation-digitalization)
+- Fun fact: I have a Glider Pilot's License 🛩️
+- Working for [Visa](https://corporate.visa.com/en/services/visa-consulting-analytics.html)
 - Studied at [WSU](https://www.westernsydney.edu.au/) and [UTS](https://mdsi.uts.edu.au)
 - Looking for more Open Source projects
 - Keen to work with like-minded people
@@ -100,6 +100,11 @@ Good reference sites for emoji's:
         title="UTS MDSI: 2 years" 
         linkurl="https://mdsi.uts.edu.au" 
         iconurl="https://storage-prtl-co.imgix.net/endor/organisations/11979/logos/1573589497_uts_logo_vertical_lockup_rgb_blk.jpg" 
+    >}}
+    {{< badge-container 
+        title="Visa" 
+        linkurl="https://corporate.visa.com/en/services/visa-consulting-analytics.html" 
+        iconurl="https://logolook.net/wp-content/uploads/2023/09/Visa-Logo-2006.png"
     >}}
 
 <br>
@@ -153,7 +158,7 @@ Good reference sites for emoji's:
     {{< badge-container 
         title="AAFC" 
         linkurl="#" 
-        iconurl="https://upload.wikimedia.org/wikipedia/en/5/59/Crest_of_the_Australian_Air_Force_Cadets_%28Aug_10%29.jpg" 
+        iconurl="https://upload.wikimedia.org/wikipedia/commons/a/ad/Crest_of_the_Australian_Air_Force_Cadets.png" 
     >}}
     {{< badge-container
         title="Model United Nations Assembly"
@@ -212,7 +217,7 @@ Good reference sites for emoji's:
     {{< badge-container
         title="Visual Studio Code"
         linkurl="https://code.visualstudio.com"
-        iconurl="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" 
+        iconurl="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" 
     >}}
     {{< badge-container
         title="RStudio"
